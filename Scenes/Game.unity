@@ -284,6 +284,7 @@ GameObject:
   - component: {fileID: 8575025}
   - component: {fileID: 8575026}
   - component: {fileID: 8575027}
+  - component: {fileID: 8575028}
   m_Layer: 0
   m_Name: Pellet (108)
   m_TagString: Untagged
@@ -370,6 +371,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &8575028
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8575024}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &13094691 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -690,6 +707,7 @@ GameObject:
   - component: {fileID: 24147848}
   - component: {fileID: 24147849}
   - component: {fileID: 24147850}
+  - component: {fileID: 24147851}
   m_Layer: 0
   m_Name: Pellet (150)
   m_TagString: Untagged
@@ -776,6 +794,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &24147851
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24147847}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &27616107 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -792,6 +826,7 @@ GameObject:
   - component: {fileID: 54006254}
   - component: {fileID: 54006255}
   - component: {fileID: 54006256}
+  - component: {fileID: 54006257}
   m_Layer: 0
   m_Name: Pellet (119)
   m_TagString: Untagged
@@ -878,6 +913,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &54006257
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54006253}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &57133996 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -894,6 +945,7 @@ GameObject:
   - component: {fileID: 67015279}
   - component: {fileID: 67015280}
   - component: {fileID: 67015281}
+  - component: {fileID: 67015282}
   m_Layer: 0
   m_Name: Pellet (134)
   m_TagString: Untagged
@@ -980,6 +1032,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &67015282
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67015278}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &70451316
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1145,6 +1213,7 @@ GameObject:
   - component: {fileID: 82456961}
   - component: {fileID: 82456962}
   - component: {fileID: 82456963}
+  - component: {fileID: 82456964}
   m_Layer: 0
   m_Name: Pellet (85)
   m_TagString: Untagged
@@ -1231,6 +1300,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &82456964
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82456960}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.00000333786}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &91223244
 GameObject:
   m_ObjectHideFlags: 0
@@ -1242,6 +1327,7 @@ GameObject:
   - component: {fileID: 91223245}
   - component: {fileID: 91223246}
   - component: {fileID: 91223247}
+  - component: {fileID: 91223248}
   m_Layer: 0
   m_Name: Pellet (152)
   m_TagString: Untagged
@@ -1328,6 +1414,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &91223248
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91223244}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &92103725
 GameObject:
   m_ObjectHideFlags: 0
@@ -1339,6 +1441,7 @@ GameObject:
   - component: {fileID: 92103726}
   - component: {fileID: 92103727}
   - component: {fileID: 92103728}
+  - component: {fileID: 92103729}
   m_Layer: 0
   m_Name: Pellet (156)
   m_TagString: Untagged
@@ -1425,6 +1528,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &92103729
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92103725}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &92470590
 GameObject:
   m_ObjectHideFlags: 0
@@ -1436,6 +1555,7 @@ GameObject:
   - component: {fileID: 92470591}
   - component: {fileID: 92470592}
   - component: {fileID: 92470593}
+  - component: {fileID: 92470594}
   m_Layer: 0
   m_Name: Pellet (187)
   m_TagString: Untagged
@@ -1522,6 +1642,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &92470594
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92470590}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &92916596
 GameObject:
   m_ObjectHideFlags: 0
@@ -1533,6 +1669,7 @@ GameObject:
   - component: {fileID: 92916597}
   - component: {fileID: 92916598}
   - component: {fileID: 92916599}
+  - component: {fileID: 92916600}
   m_Layer: 0
   m_Name: Pellet (4)
   m_TagString: Untagged
@@ -1619,6 +1756,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &92916600
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92916596}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &99735126
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1785,6 +1938,7 @@ GameObject:
   - component: {fileID: 123239964}
   - component: {fileID: 123239966}
   - component: {fileID: 123239965}
+  - component: {fileID: 123239967}
   m_Layer: 0
   m_Name: Pellet (200)
   m_TagString: Untagged
@@ -1871,6 +2025,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &123239967
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123239963}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &123565736
 GameObject:
   m_ObjectHideFlags: 0
@@ -1882,6 +2052,7 @@ GameObject:
   - component: {fileID: 123565737}
   - component: {fileID: 123565739}
   - component: {fileID: 123565738}
+  - component: {fileID: 123565740}
   m_Layer: 0
   m_Name: Pellet (195)
   m_TagString: Untagged
@@ -1968,6 +2139,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &123565740
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123565736}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &125739736
 GameObject:
   m_ObjectHideFlags: 0
@@ -1979,6 +2166,7 @@ GameObject:
   - component: {fileID: 125739737}
   - component: {fileID: 125739739}
   - component: {fileID: 125739738}
+  - component: {fileID: 125739740}
   m_Layer: 0
   m_Name: Pellet (218)
   m_TagString: Untagged
@@ -2065,6 +2253,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &125739740
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125739736}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &132704130 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -2107,6 +2311,7 @@ GameObject:
   - component: {fileID: 149546975}
   - component: {fileID: 149546976}
   - component: {fileID: 149546977}
+  - component: {fileID: 149546978}
   m_Layer: 0
   m_Name: Pellet (49)
   m_TagString: Untagged
@@ -2193,6 +2398,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &149546978
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 149546974}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &150115632 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -2225,6 +2446,7 @@ GameObject:
   - component: {fileID: 153644170}
   - component: {fileID: 153644171}
   - component: {fileID: 153644172}
+  - component: {fileID: 153644173}
   m_Layer: 0
   m_Name: Pellet (140)
   m_TagString: Untagged
@@ -2311,6 +2533,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &153644173
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153644169}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &164638774 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -2327,6 +2565,7 @@ GameObject:
   - component: {fileID: 168306667}
   - component: {fileID: 168306668}
   - component: {fileID: 168306669}
+  - component: {fileID: 168306670}
   m_Layer: 0
   m_Name: Pellet (68)
   m_TagString: Untagged
@@ -2413,6 +2652,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &168306670
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168306666}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &168755131
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2590,6 +2845,7 @@ GameObject:
   - component: {fileID: 170227717}
   - component: {fileID: 170227718}
   - component: {fileID: 170227719}
+  - component: {fileID: 170227720}
   m_Layer: 0
   m_Name: Pellet (158)
   m_TagString: Untagged
@@ -2676,6 +2932,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &170227720
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170227716}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &172287885
 GameObject:
   m_ObjectHideFlags: 0
@@ -2687,6 +2959,7 @@ GameObject:
   - component: {fileID: 172287886}
   - component: {fileID: 172287887}
   - component: {fileID: 172287888}
+  - component: {fileID: 172287889}
   m_Layer: 0
   m_Name: Pellet (14)
   m_TagString: Untagged
@@ -2773,6 +3046,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &172287889
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172287885}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &178173104
 GameObject:
   m_ObjectHideFlags: 0
@@ -2784,6 +3073,7 @@ GameObject:
   - component: {fileID: 178173105}
   - component: {fileID: 178173106}
   - component: {fileID: 178173107}
+  - component: {fileID: 178173108}
   m_Layer: 0
   m_Name: Pellet (157)
   m_TagString: Untagged
@@ -2870,6 +3160,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &178173108
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178173104}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &182560096
 GameObject:
   m_ObjectHideFlags: 0
@@ -2881,6 +3187,7 @@ GameObject:
   - component: {fileID: 182560097}
   - component: {fileID: 182560098}
   - component: {fileID: 182560099}
+  - component: {fileID: 182560100}
   m_Layer: 0
   m_Name: Pellet (99)
   m_TagString: Untagged
@@ -2967,6 +3274,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &182560100
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182560096}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.00000333786}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &188662061
 GameObject:
   m_ObjectHideFlags: 0
@@ -2978,6 +3301,7 @@ GameObject:
   - component: {fileID: 188662062}
   - component: {fileID: 188662064}
   - component: {fileID: 188662063}
+  - component: {fileID: 188662065}
   m_Layer: 0
   m_Name: Pellet (212)
   m_TagString: Untagged
@@ -3064,6 +3388,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &188662065
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188662061}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &196041315
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3229,6 +3569,7 @@ GameObject:
   - component: {fileID: 202788454}
   - component: {fileID: 202788456}
   - component: {fileID: 202788455}
+  - component: {fileID: 202788457}
   m_Layer: 0
   m_Name: Pellet (207)
   m_TagString: Untagged
@@ -3315,6 +3656,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &202788457
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 202788453}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &209123877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3496,6 +3853,7 @@ GameObject:
   - component: {fileID: 209216543}
   - component: {fileID: 209216544}
   - component: {fileID: 209216545}
+  - component: {fileID: 209216546}
   m_Layer: 0
   m_Name: Pellet (133)
   m_TagString: Untagged
@@ -3582,6 +3940,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &209216546
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209216542}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &214451349
 GameObject:
   m_ObjectHideFlags: 0
@@ -3593,6 +3967,7 @@ GameObject:
   - component: {fileID: 214451350}
   - component: {fileID: 214451351}
   - component: {fileID: 214451352}
+  - component: {fileID: 214451353}
   m_Layer: 0
   m_Name: Pellet (75)
   m_TagString: Untagged
@@ -3679,6 +4054,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &214451353
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214451349}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &217996299
 GameObject:
   m_ObjectHideFlags: 0
@@ -3690,6 +4081,7 @@ GameObject:
   - component: {fileID: 217996300}
   - component: {fileID: 217996301}
   - component: {fileID: 217996302}
+  - component: {fileID: 217996303}
   m_Layer: 0
   m_Name: Pellet (48)
   m_TagString: Untagged
@@ -3776,6 +4168,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &217996303
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217996299}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &230642976 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -3792,6 +4200,7 @@ GameObject:
   - component: {fileID: 232844844}
   - component: {fileID: 232844845}
   - component: {fileID: 232844846}
+  - component: {fileID: 232844847}
   m_Layer: 0
   m_Name: Pellet (69)
   m_TagString: Untagged
@@ -3878,6 +4287,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &232844847
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232844843}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.000000834465}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &233309458
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4202,6 +4627,7 @@ GameObject:
   - component: {fileID: 252362585}
   - component: {fileID: 252362586}
   - component: {fileID: 252362587}
+  - component: {fileID: 252362588}
   m_Layer: 0
   m_Name: Pellet (189)
   m_TagString: Untagged
@@ -4288,6 +4714,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &252362588
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252362584}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &252379152
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4470,6 +4912,7 @@ GameObject:
   - component: {fileID: 262368892}
   - component: {fileID: 262368893}
   - component: {fileID: 262368894}
+  - component: {fileID: 262368895}
   m_Layer: 0
   m_Name: Pellet (169)
   m_TagString: Untagged
@@ -4556,6 +4999,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &262368895
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262368891}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &269404858
 GameObject:
   m_ObjectHideFlags: 0
@@ -4567,6 +5026,7 @@ GameObject:
   - component: {fileID: 269404859}
   - component: {fileID: 269404860}
   - component: {fileID: 269404861}
+  - component: {fileID: 269404862}
   m_Layer: 0
   m_Name: Pellet (113)
   m_TagString: Untagged
@@ -4653,6 +5113,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &269404862
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 269404858}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.00000333786}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &274684333
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4814,6 +5290,7 @@ GameObject:
   - component: {fileID: 275220212}
   - component: {fileID: 275220213}
   - component: {fileID: 275220214}
+  - component: {fileID: 275220215}
   m_Layer: 0
   m_Name: Pellet (7)
   m_TagString: Untagged
@@ -4900,6 +5377,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &275220215
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 275220211}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &280930082
 GameObject:
   m_ObjectHideFlags: 0
@@ -4911,6 +5404,7 @@ GameObject:
   - component: {fileID: 280930083}
   - component: {fileID: 280930084}
   - component: {fileID: 280930085}
+  - component: {fileID: 280930086}
   m_Layer: 0
   m_Name: Pellet (44)
   m_TagString: Untagged
@@ -4997,6 +5491,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &280930086
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280930082}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &291994364
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5606,6 +6116,7 @@ GameObject:
   - component: {fileID: 310280580}
   - component: {fileID: 310280581}
   - component: {fileID: 310280582}
+  - component: {fileID: 310280583}
   m_Layer: 0
   m_Name: Pellet (5)
   m_TagString: Untagged
@@ -5692,6 +6203,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &310280583
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310280579}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &314811891
 GameObject:
   m_ObjectHideFlags: 0
@@ -5703,6 +6230,7 @@ GameObject:
   - component: {fileID: 314811892}
   - component: {fileID: 314811893}
   - component: {fileID: 314811894}
+  - component: {fileID: 314811895}
   m_Layer: 0
   m_Name: Pellet (160)
   m_TagString: Untagged
@@ -5789,6 +6317,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &314811895
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314811891}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &320842462
 GameObject:
   m_ObjectHideFlags: 0
@@ -5928,6 +6472,7 @@ GameObject:
   - component: {fileID: 329962440}
   - component: {fileID: 329962441}
   - component: {fileID: 329962442}
+  - component: {fileID: 329962443}
   m_Layer: 0
   m_Name: Pellet (17)
   m_TagString: Untagged
@@ -6014,6 +6559,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &329962443
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329962439}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &332390074
 GameObject:
   m_ObjectHideFlags: 0
@@ -6025,6 +6586,7 @@ GameObject:
   - component: {fileID: 332390075}
   - component: {fileID: 332390076}
   - component: {fileID: 332390077}
+  - component: {fileID: 332390078}
   m_Layer: 0
   m_Name: Pellet (115)
   m_TagString: Untagged
@@ -6111,6 +6673,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &332390078
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332390074}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &334182619
 GameObject:
   m_ObjectHideFlags: 0
@@ -6122,6 +6700,7 @@ GameObject:
   - component: {fileID: 334182620}
   - component: {fileID: 334182621}
   - component: {fileID: 334182622}
+  - component: {fileID: 334182623}
   m_Layer: 0
   m_Name: Pellet (66)
   m_TagString: Untagged
@@ -6208,6 +6787,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &334182623
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334182619}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &337228945
 GameObject:
   m_ObjectHideFlags: 0
@@ -6219,6 +6814,7 @@ GameObject:
   - component: {fileID: 337228946}
   - component: {fileID: 337228947}
   - component: {fileID: 337228948}
+  - component: {fileID: 337228949}
   m_Layer: 0
   m_Name: Pellet (154)
   m_TagString: Untagged
@@ -6305,6 +6901,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &337228949
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337228945}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &353010085
 GameObject:
   m_ObjectHideFlags: 0
@@ -6316,6 +6928,7 @@ GameObject:
   - component: {fileID: 353010086}
   - component: {fileID: 353010087}
   - component: {fileID: 353010088}
+  - component: {fileID: 353010089}
   m_Layer: 0
   m_Name: Pellet (86)
   m_TagString: Untagged
@@ -6402,6 +7015,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &353010089
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353010085}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &362351513
 GameObject:
   m_ObjectHideFlags: 0
@@ -6413,6 +7042,7 @@ GameObject:
   - component: {fileID: 362351514}
   - component: {fileID: 362351515}
   - component: {fileID: 362351516}
+  - component: {fileID: 362351517}
   m_Layer: 0
   m_Name: Pellet (170)
   m_TagString: Untagged
@@ -6499,6 +7129,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &362351517
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362351513}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &377626050
 GameObject:
   m_ObjectHideFlags: 0
@@ -6510,6 +7156,7 @@ GameObject:
   - component: {fileID: 377626051}
   - component: {fileID: 377626052}
   - component: {fileID: 377626053}
+  - component: {fileID: 377626054}
   m_Layer: 0
   m_Name: Pellet (142)
   m_TagString: Untagged
@@ -6596,6 +7243,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &377626054
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377626050}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &377675818
 GameObject:
   m_ObjectHideFlags: 0
@@ -6607,6 +7270,7 @@ GameObject:
   - component: {fileID: 377675819}
   - component: {fileID: 377675820}
   - component: {fileID: 377675821}
+  - component: {fileID: 377675822}
   m_Layer: 0
   m_Name: Pellet (55)
   m_TagString: Untagged
@@ -6693,6 +7357,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &377675822
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377675818}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &397953352 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -6725,6 +7405,7 @@ GameObject:
   - component: {fileID: 404940482}
   - component: {fileID: 404940484}
   - component: {fileID: 404940483}
+  - component: {fileID: 404940485}
   m_Layer: 0
   m_Name: Pellet (214)
   m_TagString: Untagged
@@ -6811,6 +7492,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &404940485
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404940481}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &409792720
 GameObject:
   m_ObjectHideFlags: 0
@@ -6822,6 +7519,7 @@ GameObject:
   - component: {fileID: 409792721}
   - component: {fileID: 409792722}
   - component: {fileID: 409792723}
+  - component: {fileID: 409792724}
   m_Layer: 0
   m_Name: Pellet (112)
   m_TagString: Untagged
@@ -6908,6 +7606,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &409792724
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 409792720}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &411500306
 GameObject:
   m_ObjectHideFlags: 0
@@ -6919,6 +7633,7 @@ GameObject:
   - component: {fileID: 411500307}
   - component: {fileID: 411500308}
   - component: {fileID: 411500309}
+  - component: {fileID: 411500310}
   m_Layer: 0
   m_Name: Pellet (47)
   m_TagString: Untagged
@@ -7005,6 +7720,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &411500310
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 411500306}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &411522451
 GameObject:
   m_ObjectHideFlags: 0
@@ -7144,6 +7875,7 @@ GameObject:
   - component: {fileID: 418707159}
   - component: {fileID: 418707160}
   - component: {fileID: 418707161}
+  - component: {fileID: 418707162}
   m_Layer: 0
   m_Name: Pellet (88)
   m_TagString: Untagged
@@ -7230,6 +7962,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &418707162
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418707158}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &422191079
 GameObject:
   m_ObjectHideFlags: 0
@@ -7241,6 +7989,7 @@ GameObject:
   - component: {fileID: 422191080}
   - component: {fileID: 422191081}
   - component: {fileID: 422191082}
+  - component: {fileID: 422191083}
   m_Layer: 0
   m_Name: Pellet (110)
   m_TagString: Untagged
@@ -7327,6 +8076,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &422191083
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422191079}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &426773819
 GameObject:
   m_ObjectHideFlags: 0
@@ -7338,6 +8103,7 @@ GameObject:
   - component: {fileID: 426773820}
   - component: {fileID: 426773821}
   - component: {fileID: 426773822}
+  - component: {fileID: 426773823}
   m_Layer: 0
   m_Name: Pellet (65)
   m_TagString: Untagged
@@ -7424,6 +8190,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &426773823
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426773819}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &468974205
 GameObject:
   m_ObjectHideFlags: 0
@@ -7435,6 +8217,7 @@ GameObject:
   - component: {fileID: 468974206}
   - component: {fileID: 468974207}
   - component: {fileID: 468974208}
+  - component: {fileID: 468974209}
   m_Layer: 0
   m_Name: Pellet (40)
   m_TagString: Untagged
@@ -7521,6 +8304,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &468974209
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468974205}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &480919095
 GameObject:
   m_ObjectHideFlags: 0
@@ -7532,6 +8331,7 @@ GameObject:
   - component: {fileID: 480919096}
   - component: {fileID: 480919097}
   - component: {fileID: 480919098}
+  - component: {fileID: 480919099}
   m_Layer: 0
   m_Name: Pellet (131)
   m_TagString: Untagged
@@ -7618,6 +8418,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &480919099
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480919095}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &485650272
 GameObject:
   m_ObjectHideFlags: 0
@@ -7629,6 +8445,7 @@ GameObject:
   - component: {fileID: 485650273}
   - component: {fileID: 485650274}
   - component: {fileID: 485650275}
+  - component: {fileID: 485650276}
   m_Layer: 0
   m_Name: Pellet (137)
   m_TagString: Untagged
@@ -7715,6 +8532,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &485650276
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485650272}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &489305625
 GameObject:
   m_ObjectHideFlags: 0
@@ -7726,6 +8559,7 @@ GameObject:
   - component: {fileID: 489305626}
   - component: {fileID: 489305628}
   - component: {fileID: 489305627}
+  - component: {fileID: 489305629}
   m_Layer: 0
   m_Name: Pellet (198)
   m_TagString: Untagged
@@ -7812,6 +8646,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &489305629
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489305625}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &490100730
 GameObject:
   m_ObjectHideFlags: 0
@@ -7970,6 +8820,7 @@ GameObject:
   - component: {fileID: 524159576}
   - component: {fileID: 524159577}
   - component: {fileID: 524159578}
+  - component: {fileID: 524159579}
   m_Layer: 0
   m_Name: Pellet (128)
   m_TagString: Untagged
@@ -8056,6 +8907,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &524159579
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524159575}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &524827509
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8221,6 +9088,7 @@ GameObject:
   - component: {fileID: 534180040}
   - component: {fileID: 534180041}
   - component: {fileID: 534180042}
+  - component: {fileID: 534180043}
   m_Layer: 0
   m_Name: Pellet (102)
   m_TagString: Untagged
@@ -8307,6 +9175,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &534180043
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534180039}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &538947795
 GameObject:
   m_ObjectHideFlags: 0
@@ -8318,6 +9202,7 @@ GameObject:
   - component: {fileID: 538947796}
   - component: {fileID: 538947798}
   - component: {fileID: 538947797}
+  - component: {fileID: 538947799}
   m_Layer: 0
   m_Name: Pellet (226)
   m_TagString: Untagged
@@ -8404,6 +9289,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &538947799
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538947795}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &542191558
 GameObject:
   m_ObjectHideFlags: 0
@@ -8415,6 +9316,7 @@ GameObject:
   - component: {fileID: 542191559}
   - component: {fileID: 542191560}
   - component: {fileID: 542191561}
+  - component: {fileID: 542191562}
   m_Layer: 0
   m_Name: Pellet (38)
   m_TagString: Untagged
@@ -8501,6 +9403,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &542191562
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542191558}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &543978969
 GameObject:
   m_ObjectHideFlags: 0
@@ -8590,6 +9508,7 @@ GameObject:
   - component: {fileID: 545719041}
   - component: {fileID: 545719042}
   - component: {fileID: 545719043}
+  - component: {fileID: 545719044}
   m_Layer: 0
   m_Name: Pellet (181)
   m_TagString: Untagged
@@ -8676,6 +9595,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &545719044
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 545719040}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &557909757
 GameObject:
   m_ObjectHideFlags: 0
@@ -8687,6 +9622,7 @@ GameObject:
   - component: {fileID: 557909758}
   - component: {fileID: 557909759}
   - component: {fileID: 557909760}
+  - component: {fileID: 557909761}
   m_Layer: 0
   m_Name: Pellet (100)
   m_TagString: Untagged
@@ -8773,6 +9709,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &557909761
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557909757}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &572075059
 GameObject:
   m_ObjectHideFlags: 0
@@ -8784,6 +9736,7 @@ GameObject:
   - component: {fileID: 572075060}
   - component: {fileID: 572075061}
   - component: {fileID: 572075062}
+  - component: {fileID: 572075063}
   m_Layer: 0
   m_Name: Pellet (98)
   m_TagString: Untagged
@@ -8870,6 +9823,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &572075063
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572075059}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &572396494 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -9082,6 +10051,7 @@ GameObject:
   - component: {fileID: 599908358}
   - component: {fileID: 599908359}
   - component: {fileID: 599908360}
+  - component: {fileID: 599908361}
   m_Layer: 0
   m_Name: Pellet (125)
   m_TagString: Untagged
@@ -9168,6 +10138,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &599908361
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599908357}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &605380569 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -9200,6 +10186,7 @@ GameObject:
   - component: {fileID: 614953939}
   - component: {fileID: 614953940}
   - component: {fileID: 614953941}
+  - component: {fileID: 614953942}
   m_Layer: 0
   m_Name: Pellet (129)
   m_TagString: Untagged
@@ -9286,6 +10273,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &614953942
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614953938}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &622995985 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -9318,6 +10321,7 @@ GameObject:
   - component: {fileID: 645682615}
   - component: {fileID: 645682616}
   - component: {fileID: 645682617}
+  - component: {fileID: 645682618}
   m_Layer: 0
   m_Name: Pellet (89)
   m_TagString: Untagged
@@ -9404,6 +10408,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &645682618
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645682614}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &648208503
 GameObject:
   m_ObjectHideFlags: 0
@@ -9415,6 +10435,7 @@ GameObject:
   - component: {fileID: 648208504}
   - component: {fileID: 648208506}
   - component: {fileID: 648208505}
+  - component: {fileID: 648208507}
   m_Layer: 0
   m_Name: Pellet (211)
   m_TagString: Untagged
@@ -9501,6 +10522,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &648208507
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648208503}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &652633611
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9666,6 +10703,7 @@ GameObject:
   - component: {fileID: 663222006}
   - component: {fileID: 663222007}
   - component: {fileID: 663222008}
+  - component: {fileID: 663222009}
   m_Layer: 0
   m_Name: Pellet (25)
   m_TagString: Untagged
@@ -9752,6 +10790,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &663222009
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663222005}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.00000333786}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &663522570
 GameObject:
   m_ObjectHideFlags: 0
@@ -9763,6 +10817,7 @@ GameObject:
   - component: {fileID: 663522571}
   - component: {fileID: 663522572}
   - component: {fileID: 663522573}
+  - component: {fileID: 663522574}
   m_Layer: 0
   m_Name: Pellet (105)
   m_TagString: Untagged
@@ -9849,6 +10904,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &663522574
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663522570}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &671380320
 GameObject:
   m_ObjectHideFlags: 0
@@ -9993,6 +11064,7 @@ GameObject:
   - component: {fileID: 676722523}
   - component: {fileID: 676722524}
   - component: {fileID: 676722525}
+  - component: {fileID: 676722526}
   m_Layer: 0
   m_Name: Pellet (72)
   m_TagString: Untagged
@@ -10079,6 +11151,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &676722526
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676722522}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &690093143
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10244,6 +11332,7 @@ GameObject:
   - component: {fileID: 693003527}
   - component: {fileID: 693003528}
   - component: {fileID: 693003529}
+  - component: {fileID: 693003530}
   m_Layer: 0
   m_Name: Pellet (46)
   m_TagString: Untagged
@@ -10330,6 +11419,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &693003530
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 693003526}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &695567656
 GameObject:
   m_ObjectHideFlags: 0
@@ -10341,6 +11446,7 @@ GameObject:
   - component: {fileID: 695567657}
   - component: {fileID: 695567658}
   - component: {fileID: 695567659}
+  - component: {fileID: 695567660}
   m_Layer: 0
   m_Name: Pellet (3)
   m_TagString: Untagged
@@ -10427,6 +11533,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &695567660
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695567656}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &698966964 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -10443,6 +11565,7 @@ GameObject:
   - component: {fileID: 699997837}
   - component: {fileID: 699997839}
   - component: {fileID: 699997838}
+  - component: {fileID: 699997840}
   m_Layer: 0
   m_Name: Pellet (210)
   m_TagString: Untagged
@@ -10529,6 +11652,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &699997840
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699997836}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &703420504
 GameObject:
   m_ObjectHideFlags: 0
@@ -10540,6 +11679,7 @@ GameObject:
   - component: {fileID: 703420505}
   - component: {fileID: 703420506}
   - component: {fileID: 703420507}
+  - component: {fileID: 703420508}
   m_Layer: 0
   m_Name: Pellet (58)
   m_TagString: Untagged
@@ -10626,6 +11766,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &703420508
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703420504}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &714255142
 GameObject:
   m_ObjectHideFlags: 0
@@ -10637,6 +11793,7 @@ GameObject:
   - component: {fileID: 714255143}
   - component: {fileID: 714255145}
   - component: {fileID: 714255144}
+  - component: {fileID: 714255146}
   m_Layer: 0
   m_Name: Pellet (221)
   m_TagString: Untagged
@@ -10723,6 +11880,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &714255146
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714255142}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &724125654
 GameObject:
   m_ObjectHideFlags: 0
@@ -10734,6 +11907,7 @@ GameObject:
   - component: {fileID: 724125655}
   - component: {fileID: 724125656}
   - component: {fileID: 724125657}
+  - component: {fileID: 724125658}
   m_Layer: 0
   m_Name: Pellet (107)
   m_TagString: Untagged
@@ -10820,6 +11994,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &724125658
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724125654}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.00000333786}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &743985357
 GameObject:
   m_ObjectHideFlags: 0
@@ -10831,6 +12021,7 @@ GameObject:
   - component: {fileID: 743985358}
   - component: {fileID: 743985360}
   - component: {fileID: 743985359}
+  - component: {fileID: 743985361}
   m_Layer: 0
   m_Name: Pellet (201)
   m_TagString: Untagged
@@ -10917,6 +12108,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &743985361
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743985357}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &754416417
 GameObject:
   m_ObjectHideFlags: 0
@@ -10928,6 +12135,7 @@ GameObject:
   - component: {fileID: 754416418}
   - component: {fileID: 754416419}
   - component: {fileID: 754416420}
+  - component: {fileID: 754416421}
   m_Layer: 0
   m_Name: Pellet (120)
   m_TagString: Untagged
@@ -11014,6 +12222,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &754416421
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754416417}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &767131148
 GameObject:
   m_ObjectHideFlags: 0
@@ -11025,6 +12249,7 @@ GameObject:
   - component: {fileID: 767131149}
   - component: {fileID: 767131150}
   - component: {fileID: 767131151}
+  - component: {fileID: 767131152}
   m_Layer: 0
   m_Name: Pellet (93)
   m_TagString: Untagged
@@ -11111,6 +12336,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &767131152
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767131148}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &774044544
 GameObject:
   m_ObjectHideFlags: 0
@@ -11122,6 +12363,7 @@ GameObject:
   - component: {fileID: 774044545}
   - component: {fileID: 774044546}
   - component: {fileID: 774044547}
+  - component: {fileID: 774044548}
   m_Layer: 0
   m_Name: Pellet (183)
   m_TagString: Untagged
@@ -11208,6 +12450,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &774044548
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774044544}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &778589322
 GameObject:
   m_ObjectHideFlags: 0
@@ -11219,6 +12477,7 @@ GameObject:
   - component: {fileID: 778589323}
   - component: {fileID: 778589325}
   - component: {fileID: 778589324}
+  - component: {fileID: 778589326}
   m_Layer: 0
   m_Name: Pellet (145)
   m_TagString: Untagged
@@ -11305,6 +12564,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &778589326
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778589322}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &778695913
 GameObject:
   m_ObjectHideFlags: 0
@@ -11316,6 +12591,7 @@ GameObject:
   - component: {fileID: 778695914}
   - component: {fileID: 778695915}
   - component: {fileID: 778695916}
+  - component: {fileID: 778695917}
   m_Layer: 0
   m_Name: Pellet (78)
   m_TagString: Untagged
@@ -11402,6 +12678,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &778695917
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778695913}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.00000333786}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &808660705
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11563,6 +12855,7 @@ GameObject:
   - component: {fileID: 836338324}
   - component: {fileID: 836338325}
   - component: {fileID: 836338326}
+  - component: {fileID: 836338327}
   m_Layer: 0
   m_Name: Pellet (104)
   m_TagString: Untagged
@@ -11649,6 +12942,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &836338327
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 836338323}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &841363825
 GameObject:
   m_ObjectHideFlags: 0
@@ -11660,6 +12969,7 @@ GameObject:
   - component: {fileID: 841363826}
   - component: {fileID: 841363827}
   - component: {fileID: 841363828}
+  - component: {fileID: 841363829}
   m_Layer: 0
   m_Name: Pellet (168)
   m_TagString: Untagged
@@ -11746,6 +13056,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &841363829
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841363825}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &842118768
 GameObject:
   m_ObjectHideFlags: 0
@@ -11757,6 +13083,7 @@ GameObject:
   - component: {fileID: 842118769}
   - component: {fileID: 842118771}
   - component: {fileID: 842118770}
+  - component: {fileID: 842118772}
   m_Layer: 0
   m_Name: Pellet (223)
   m_TagString: Untagged
@@ -11843,6 +13170,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &842118772
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842118768}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &854868296 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -11875,6 +13218,7 @@ GameObject:
   - component: {fileID: 855530578}
   - component: {fileID: 855530579}
   - component: {fileID: 855530580}
+  - component: {fileID: 855530581}
   m_Layer: 0
   m_Name: Pellet (70)
   m_TagString: Untagged
@@ -11961,6 +13305,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &855530581
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 855530577}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &867656082 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -12301,6 +13661,7 @@ GameObject:
   - component: {fileID: 874873247}
   - component: {fileID: 874873248}
   - component: {fileID: 874873249}
+  - component: {fileID: 874873250}
   m_Layer: 0
   m_Name: Pellet (82)
   m_TagString: Untagged
@@ -12387,6 +13748,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &874873250
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874873246}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &884852346
 GameObject:
   m_ObjectHideFlags: 0
@@ -12398,6 +13775,7 @@ GameObject:
   - component: {fileID: 884852347}
   - component: {fileID: 884852348}
   - component: {fileID: 884852349}
+  - component: {fileID: 884852350}
   m_Layer: 0
   m_Name: Pellet (6)
   m_TagString: Untagged
@@ -12484,6 +13862,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &884852350
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884852346}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &890027937 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -12500,6 +13894,7 @@ GameObject:
   - component: {fileID: 895291239}
   - component: {fileID: 895291240}
   - component: {fileID: 895291241}
+  - component: {fileID: 895291242}
   m_Layer: 0
   m_Name: Pellet (155)
   m_TagString: Untagged
@@ -12586,6 +13981,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &895291242
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895291238}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &898504080
 GameObject:
   m_ObjectHideFlags: 0
@@ -12597,6 +14008,7 @@ GameObject:
   - component: {fileID: 898504081}
   - component: {fileID: 898504083}
   - component: {fileID: 898504082}
+  - component: {fileID: 898504084}
   m_Layer: 0
   m_Name: Pellet (225)
   m_TagString: Untagged
@@ -12683,6 +14095,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &898504084
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898504080}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &904671653
 GameObject:
   m_ObjectHideFlags: 0
@@ -12694,6 +14122,7 @@ GameObject:
   - component: {fileID: 904671654}
   - component: {fileID: 904671655}
   - component: {fileID: 904671656}
+  - component: {fileID: 904671657}
   m_Layer: 0
   m_Name: Pellet (94)
   m_TagString: Untagged
@@ -12780,6 +14209,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &904671657
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 904671653}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &904993507
 GameObject:
   m_ObjectHideFlags: 0
@@ -12791,6 +14236,7 @@ GameObject:
   - component: {fileID: 904993508}
   - component: {fileID: 904993509}
   - component: {fileID: 904993510}
+  - component: {fileID: 904993511}
   m_Layer: 0
   m_Name: Pellet (182)
   m_TagString: Untagged
@@ -12877,6 +14323,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &904993511
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 904993507}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &916732032
 GameObject:
   m_ObjectHideFlags: 0
@@ -12888,6 +14350,7 @@ GameObject:
   - component: {fileID: 916732033}
   - component: {fileID: 916732034}
   - component: {fileID: 916732035}
+  - component: {fileID: 916732036}
   m_Layer: 0
   m_Name: Pellet (8)
   m_TagString: Untagged
@@ -12974,6 +14437,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &916732036
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916732032}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &917825757
 GameObject:
   m_ObjectHideFlags: 0
@@ -12985,6 +14464,7 @@ GameObject:
   - component: {fileID: 917825758}
   - component: {fileID: 917825759}
   - component: {fileID: 917825760}
+  - component: {fileID: 917825761}
   m_Layer: 0
   m_Name: Pellet (167)
   m_TagString: Untagged
@@ -13071,6 +14551,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &917825761
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917825757}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &920173277
 GameObject:
   m_ObjectHideFlags: 0
@@ -13082,6 +14578,7 @@ GameObject:
   - component: {fileID: 920173278}
   - component: {fileID: 920173279}
   - component: {fileID: 920173280}
+  - component: {fileID: 920173281}
   m_Layer: 0
   m_Name: Pellet (79)
   m_TagString: Untagged
@@ -13168,6 +14665,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &920173281
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920173277}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &928014120 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -13200,6 +14713,7 @@ GameObject:
   - component: {fileID: 948626059}
   - component: {fileID: 948626061}
   - component: {fileID: 948626060}
+  - component: {fileID: 948626062}
   m_Layer: 0
   m_Name: Pellet (217)
   m_TagString: Untagged
@@ -13286,6 +14800,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &948626062
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948626058}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &949328840 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -13461,6 +14991,7 @@ GameObject:
   - component: {fileID: 991305558}
   - component: {fileID: 991305559}
   - component: {fileID: 991305560}
+  - component: {fileID: 991305561}
   m_Layer: 0
   m_Name: Pellet (12)
   m_TagString: Untagged
@@ -13547,6 +15078,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &991305561
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991305557}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &996732733
 GameObject:
   m_ObjectHideFlags: 0
@@ -13558,6 +15105,7 @@ GameObject:
   - component: {fileID: 996732734}
   - component: {fileID: 996732736}
   - component: {fileID: 996732735}
+  - component: {fileID: 996732737}
   m_Layer: 0
   m_Name: Pellet (216)
   m_TagString: Untagged
@@ -13644,6 +15192,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &996732737
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996732733}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &999794003
 GameObject:
   m_ObjectHideFlags: 0
@@ -13655,6 +15219,7 @@ GameObject:
   - component: {fileID: 999794004}
   - component: {fileID: 999794006}
   - component: {fileID: 999794005}
+  - component: {fileID: 999794007}
   m_Layer: 0
   m_Name: Pellet (191)
   m_TagString: Untagged
@@ -13741,6 +15306,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &999794007
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 999794003}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1003498494
 GameObject:
   m_ObjectHideFlags: 0
@@ -13752,6 +15333,7 @@ GameObject:
   - component: {fileID: 1003498495}
   - component: {fileID: 1003498496}
   - component: {fileID: 1003498497}
+  - component: {fileID: 1003498498}
   m_Layer: 0
   m_Name: Pellet (139)
   m_TagString: Untagged
@@ -13838,6 +15420,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1003498498
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003498494}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1021020712
 GameObject:
   m_ObjectHideFlags: 0
@@ -13849,6 +15447,7 @@ GameObject:
   - component: {fileID: 1021020713}
   - component: {fileID: 1021020714}
   - component: {fileID: 1021020715}
+  - component: {fileID: 1021020716}
   m_Layer: 0
   m_Name: Pellet (184)
   m_TagString: Untagged
@@ -13935,6 +15534,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1021020716
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021020712}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1021787560
 GameObject:
   m_ObjectHideFlags: 0
@@ -13946,6 +15561,7 @@ GameObject:
   - component: {fileID: 1021787561}
   - component: {fileID: 1021787562}
   - component: {fileID: 1021787563}
+  - component: {fileID: 1021787564}
   m_Layer: 0
   m_Name: Pellet (126)
   m_TagString: Untagged
@@ -14032,6 +15648,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1021787564
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021787560}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1027235147
 GameObject:
   m_ObjectHideFlags: 0
@@ -14043,6 +15675,7 @@ GameObject:
   - component: {fileID: 1027235148}
   - component: {fileID: 1027235149}
   - component: {fileID: 1027235150}
+  - component: {fileID: 1027235151}
   m_Layer: 0
   m_Name: Pellet (138)
   m_TagString: Untagged
@@ -14129,6 +15762,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1027235151
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027235147}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1032237306
 GameObject:
   m_ObjectHideFlags: 0
@@ -14140,6 +15789,7 @@ GameObject:
   - component: {fileID: 1032237307}
   - component: {fileID: 1032237309}
   - component: {fileID: 1032237308}
+  - component: {fileID: 1032237310}
   m_Layer: 0
   m_Name: Pellet (208)
   m_TagString: Untagged
@@ -14226,6 +15876,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1032237310
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032237306}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1036215514
 GameObject:
   m_ObjectHideFlags: 0
@@ -14237,6 +15903,7 @@ GameObject:
   - component: {fileID: 1036215515}
   - component: {fileID: 1036215516}
   - component: {fileID: 1036215517}
+  - component: {fileID: 1036215518}
   m_Layer: 0
   m_Name: Pellet (9)
   m_TagString: Untagged
@@ -14323,6 +15990,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1036215518
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036215514}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1048971339
 GameObject:
   m_ObjectHideFlags: 0
@@ -14334,6 +16017,7 @@ GameObject:
   - component: {fileID: 1048971340}
   - component: {fileID: 1048971341}
   - component: {fileID: 1048971342}
+  - component: {fileID: 1048971343}
   m_Layer: 0
   m_Name: Pellet (63)
   m_TagString: Untagged
@@ -14420,6 +16104,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1048971343
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048971339}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1064895183 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -14452,6 +16152,7 @@ GameObject:
   - component: {fileID: 1072669769}
   - component: {fileID: 1072669770}
   - component: {fileID: 1072669771}
+  - component: {fileID: 1072669772}
   m_Layer: 0
   m_Name: Pellet (43)
   m_TagString: Untagged
@@ -14538,6 +16239,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1072669772
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072669768}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1078077540
 GameObject:
   m_ObjectHideFlags: 0
@@ -14549,6 +16266,7 @@ GameObject:
   - component: {fileID: 1078077541}
   - component: {fileID: 1078077543}
   - component: {fileID: 1078077542}
+  - component: {fileID: 1078077544}
   m_Layer: 0
   m_Name: Pellet (219)
   m_TagString: Untagged
@@ -14635,6 +16353,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1078077544
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078077540}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1087120999
 GameObject:
   m_ObjectHideFlags: 0
@@ -14646,6 +16380,7 @@ GameObject:
   - component: {fileID: 1087121000}
   - component: {fileID: 1087121002}
   - component: {fileID: 1087121001}
+  - component: {fileID: 1087121003}
   m_Layer: 0
   m_Name: Pellet (209)
   m_TagString: Untagged
@@ -14732,6 +16467,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1087121003
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087120999}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1103098158
 GameObject:
   m_ObjectHideFlags: 0
@@ -14743,6 +16494,7 @@ GameObject:
   - component: {fileID: 1103098159}
   - component: {fileID: 1103098160}
   - component: {fileID: 1103098161}
+  - component: {fileID: 1103098162}
   m_Layer: 0
   m_Name: Pellet (91)
   m_TagString: Untagged
@@ -14829,6 +16581,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1103098162
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103098158}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.00000333786}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1116042245
 GameObject:
   m_ObjectHideFlags: 0
@@ -14840,6 +16608,7 @@ GameObject:
   - component: {fileID: 1116042246}
   - component: {fileID: 1116042247}
   - component: {fileID: 1116042248}
+  - component: {fileID: 1116042249}
   m_Layer: 0
   m_Name: Pellet (28)
   m_TagString: Untagged
@@ -14926,6 +16695,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1116042249
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116042245}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1116205711
 GameObject:
   m_ObjectHideFlags: 0
@@ -14937,6 +16722,7 @@ GameObject:
   - component: {fileID: 1116205712}
   - component: {fileID: 1116205713}
   - component: {fileID: 1116205714}
+  - component: {fileID: 1116205715}
   m_Layer: 0
   m_Name: Pellet (190)
   m_TagString: Untagged
@@ -15023,6 +16809,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1116205715
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116205711}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1117041222 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -15039,6 +16841,7 @@ GameObject:
   - component: {fileID: 1123895354}
   - component: {fileID: 1123895355}
   - component: {fileID: 1123895356}
+  - component: {fileID: 1123895357}
   m_Layer: 0
   m_Name: Pellet (34)
   m_TagString: Untagged
@@ -15125,6 +16928,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1123895357
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123895353}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &1138318063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15306,6 +17125,7 @@ GameObject:
   - component: {fileID: 1148057806}
   - component: {fileID: 1148057808}
   - component: {fileID: 1148057807}
+  - component: {fileID: 1148057809}
   m_Layer: 0
   m_Name: Pellet (204)
   m_TagString: Untagged
@@ -15392,6 +17212,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1148057809
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148057805}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1154638548
 GameObject:
   m_ObjectHideFlags: 0
@@ -15403,6 +17239,7 @@ GameObject:
   - component: {fileID: 1154638549}
   - component: {fileID: 1154638551}
   - component: {fileID: 1154638550}
+  - component: {fileID: 1154638552}
   m_Layer: 0
   m_Name: Pellet (202)
   m_TagString: Untagged
@@ -15489,6 +17326,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1154638552
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154638548}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1160539768
 GameObject:
   m_ObjectHideFlags: 0
@@ -15500,6 +17353,7 @@ GameObject:
   - component: {fileID: 1160539769}
   - component: {fileID: 1160539770}
   - component: {fileID: 1160539771}
+  - component: {fileID: 1160539772}
   m_Layer: 0
   m_Name: Pellet (22)
   m_TagString: Untagged
@@ -15586,6 +17440,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1160539772
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160539768}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.00000333786}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1164620360 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -15618,6 +17488,7 @@ GameObject:
   - component: {fileID: 1168452355}
   - component: {fileID: 1168452356}
   - component: {fileID: 1168452357}
+  - component: {fileID: 1168452358}
   m_Layer: 0
   m_Name: Pellet (114)
   m_TagString: Untagged
@@ -15704,6 +17575,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1168452358
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168452354}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1191333787
 GameObject:
   m_ObjectHideFlags: 0
@@ -15715,6 +17602,7 @@ GameObject:
   - component: {fileID: 1191333788}
   - component: {fileID: 1191333789}
   - component: {fileID: 1191333790}
+  - component: {fileID: 1191333791}
   m_Layer: 0
   m_Name: Pellet (117)
   m_TagString: Untagged
@@ -15801,6 +17689,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1191333791
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191333787}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1191707783 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -15817,6 +17721,7 @@ GameObject:
   - component: {fileID: 1199489253}
   - component: {fileID: 1199489254}
   - component: {fileID: 1199489255}
+  - component: {fileID: 1199489256}
   m_Layer: 0
   m_Name: Pellet (50)
   m_TagString: Untagged
@@ -15903,6 +17808,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1199489256
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199489252}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &1203792184
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16084,6 +18005,7 @@ GameObject:
   - component: {fileID: 1214896401}
   - component: {fileID: 1214896402}
   - component: {fileID: 1214896403}
+  - component: {fileID: 1214896404}
   m_Layer: 0
   m_Name: Pellet (19)
   m_TagString: Untagged
@@ -16170,6 +18092,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1214896404
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214896400}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1231785445
 GameObject:
   m_ObjectHideFlags: 0
@@ -16181,6 +18119,7 @@ GameObject:
   - component: {fileID: 1231785446}
   - component: {fileID: 1231785448}
   - component: {fileID: 1231785447}
+  - component: {fileID: 1231785449}
   m_Layer: 0
   m_Name: Pellet (147)
   m_TagString: Untagged
@@ -16267,6 +18206,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1231785449
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231785445}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1245260104
 GameObject:
   m_ObjectHideFlags: 0
@@ -16278,6 +18233,7 @@ GameObject:
   - component: {fileID: 1245260105}
   - component: {fileID: 1245260107}
   - component: {fileID: 1245260106}
+  - component: {fileID: 1245260108}
   m_Layer: 0
   m_Name: Pellet (199)
   m_TagString: Untagged
@@ -16364,6 +18320,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1245260108
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245260104}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &1248027920
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16545,6 +18517,7 @@ GameObject:
   - component: {fileID: 1269491259}
   - component: {fileID: 1269491260}
   - component: {fileID: 1269491261}
+  - component: {fileID: 1269491262}
   m_Layer: 0
   m_Name: Pellet (26)
   m_TagString: Untagged
@@ -16631,6 +18604,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1269491262
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269491258}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1271572776
 GameObject:
   m_ObjectHideFlags: 0
@@ -16642,6 +18631,7 @@ GameObject:
   - component: {fileID: 1271572777}
   - component: {fileID: 1271572778}
   - component: {fileID: 1271572779}
+  - component: {fileID: 1271572780}
   m_Layer: 0
   m_Name: Pellet (188)
   m_TagString: Untagged
@@ -16728,6 +18718,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1271572780
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271572776}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &1277770867
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16909,6 +18915,7 @@ GameObject:
   - component: {fileID: 1281655004}
   - component: {fileID: 1281655006}
   - component: {fileID: 1281655005}
+  - component: {fileID: 1281655007}
   m_Layer: 0
   m_Name: Pellet (205)
   m_TagString: Untagged
@@ -16995,6 +19002,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1281655007
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281655003}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1282390695
 GameObject:
   m_ObjectHideFlags: 0
@@ -17006,6 +19029,7 @@ GameObject:
   - component: {fileID: 1282390696}
   - component: {fileID: 1282390697}
   - component: {fileID: 1282390698}
+  - component: {fileID: 1282390699}
   m_Layer: 0
   m_Name: Pellet (57)
   m_TagString: Untagged
@@ -17092,6 +19116,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1282390699
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282390695}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.00000333786}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1285880351
 GameObject:
   m_ObjectHideFlags: 0
@@ -17103,6 +19143,7 @@ GameObject:
   - component: {fileID: 1285880352}
   - component: {fileID: 1285880354}
   - component: {fileID: 1285880353}
+  - component: {fileID: 1285880355}
   m_Layer: 0
   m_Name: Pellet (146)
   m_TagString: Untagged
@@ -17189,6 +19230,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1285880355
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285880351}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1287797400
 GameObject:
   m_ObjectHideFlags: 0
@@ -17200,6 +19257,7 @@ GameObject:
   - component: {fileID: 1287797401}
   - component: {fileID: 1287797402}
   - component: {fileID: 1287797403}
+  - component: {fileID: 1287797404}
   m_Layer: 0
   m_Name: Pellet (124)
   m_TagString: Untagged
@@ -17286,6 +19344,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1287797404
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287797400}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &1290414852
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17463,6 +19537,7 @@ GameObject:
   - component: {fileID: 1313577821}
   - component: {fileID: 1313577822}
   - component: {fileID: 1313577823}
+  - component: {fileID: 1313577824}
   m_Layer: 0
   m_Name: Pellet (24)
   m_TagString: Untagged
@@ -17549,6 +19624,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1313577824
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313577820}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.00000333786}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &1320048449
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17735,6 +19826,7 @@ GameObject:
   - component: {fileID: 1325922786}
   - component: {fileID: 1325922787}
   - component: {fileID: 1325922788}
+  - component: {fileID: 1325922789}
   m_Layer: 0
   m_Name: Pellet (20)
   m_TagString: Untagged
@@ -17821,6 +19913,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1325922789
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325922785}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1337272809
 GameObject:
   m_ObjectHideFlags: 0
@@ -17832,6 +19940,7 @@ GameObject:
   - component: {fileID: 1337272810}
   - component: {fileID: 1337272811}
   - component: {fileID: 1337272812}
+  - component: {fileID: 1337272813}
   m_Layer: 0
   m_Name: Pellet (13)
   m_TagString: Untagged
@@ -17918,6 +20027,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1337272813
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337272809}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1345287305
 GameObject:
   m_ObjectHideFlags: 0
@@ -17929,6 +20054,7 @@ GameObject:
   - component: {fileID: 1345287306}
   - component: {fileID: 1345287307}
   - component: {fileID: 1345287308}
+  - component: {fileID: 1345287309}
   m_Layer: 0
   m_Name: Pellet (103)
   m_TagString: Untagged
@@ -18015,6 +20141,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1345287309
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345287305}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.00000333786}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1346046505
 GameObject:
   m_ObjectHideFlags: 0
@@ -18026,6 +20168,7 @@ GameObject:
   - component: {fileID: 1346046506}
   - component: {fileID: 1346046507}
   - component: {fileID: 1346046508}
+  - component: {fileID: 1346046509}
   m_Layer: 0
   m_Name: Pellet (116)
   m_TagString: Untagged
@@ -18112,6 +20255,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1346046509
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346046505}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1352205923
 GameObject:
   m_ObjectHideFlags: 0
@@ -18123,6 +20282,7 @@ GameObject:
   - component: {fileID: 1352205924}
   - component: {fileID: 1352205925}
   - component: {fileID: 1352205926}
+  - component: {fileID: 1352205927}
   m_Layer: 0
   m_Name: Pellet (37)
   m_TagString: Untagged
@@ -18209,6 +20369,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1352205927
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352205923}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1365314761 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -18241,6 +20417,7 @@ GameObject:
   - component: {fileID: 1376542345}
   - component: {fileID: 1376542346}
   - component: {fileID: 1376542347}
+  - component: {fileID: 1376542348}
   m_Layer: 0
   m_Name: Pellet (64)
   m_TagString: Untagged
@@ -18327,6 +20504,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1376542348
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376542344}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.00000333786}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1378403329
 GameObject:
   m_ObjectHideFlags: 0
@@ -18338,6 +20531,7 @@ GameObject:
   - component: {fileID: 1378403330}
   - component: {fileID: 1378403331}
   - component: {fileID: 1378403332}
+  - component: {fileID: 1378403333}
   m_Layer: 0
   m_Name: Pellet (127)
   m_TagString: Untagged
@@ -18424,6 +20618,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1378403333
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378403329}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1390447514
 GameObject:
   m_ObjectHideFlags: 0
@@ -18435,6 +20645,7 @@ GameObject:
   - component: {fileID: 1390447515}
   - component: {fileID: 1390447516}
   - component: {fileID: 1390447517}
+  - component: {fileID: 1390447518}
   m_Layer: 0
   m_Name: Pellet (118)
   m_TagString: Untagged
@@ -18521,6 +20732,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1390447518
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390447514}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1399026758
 GameObject:
   m_ObjectHideFlags: 0
@@ -18532,6 +20759,7 @@ GameObject:
   - component: {fileID: 1399026759}
   - component: {fileID: 1399026760}
   - component: {fileID: 1399026761}
+  - component: {fileID: 1399026762}
   m_Layer: 0
   m_Name: Pellet (59)
   m_TagString: Untagged
@@ -18618,6 +20846,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1399026762
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399026758}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1404561960
 GameObject:
   m_ObjectHideFlags: 0
@@ -18629,6 +20873,7 @@ GameObject:
   - component: {fileID: 1404561961}
   - component: {fileID: 1404561962}
   - component: {fileID: 1404561963}
+  - component: {fileID: 1404561964}
   m_Layer: 0
   m_Name: Pellet (67)
   m_TagString: Untagged
@@ -18715,6 +20960,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1404561964
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404561960}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &1406905063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18896,6 +21157,7 @@ GameObject:
   - component: {fileID: 1410106272}
   - component: {fileID: 1410106273}
   - component: {fileID: 1410106274}
+  - component: {fileID: 1410106275}
   m_Layer: 0
   m_Name: Pellet (159)
   m_TagString: Untagged
@@ -18982,6 +21244,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1410106275
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410106271}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1415079401
 GameObject:
   m_ObjectHideFlags: 0
@@ -18993,6 +21271,7 @@ GameObject:
   - component: {fileID: 1415079402}
   - component: {fileID: 1415079403}
   - component: {fileID: 1415079404}
+  - component: {fileID: 1415079405}
   m_Layer: 0
   m_Name: Pellet (27)
   m_TagString: Untagged
@@ -19079,6 +21358,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1415079405
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415079401}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.00000333786}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1416026392
 GameObject:
   m_ObjectHideFlags: 0
@@ -19188,6 +21483,7 @@ GameObject:
   - component: {fileID: 1421684256}
   - component: {fileID: 1421684257}
   - component: {fileID: 1421684258}
+  - component: {fileID: 1421684259}
   m_Layer: 0
   m_Name: Pellet (36)
   m_TagString: Untagged
@@ -19274,6 +21570,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1421684259
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421684255}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.00000333786}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &1423268045
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19597,6 +21909,7 @@ GameObject:
   - component: {fileID: 1437396175}
   - component: {fileID: 1437396176}
   - component: {fileID: 1437396177}
+  - component: {fileID: 1437396178}
   m_Layer: 0
   m_Name: Pellet (143)
   m_TagString: Untagged
@@ -19683,6 +21996,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1437396178
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437396174}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1441678650
 GameObject:
   m_ObjectHideFlags: 0
@@ -19694,6 +22023,7 @@ GameObject:
   - component: {fileID: 1441678651}
   - component: {fileID: 1441678652}
   - component: {fileID: 1441678653}
+  - component: {fileID: 1441678654}
   m_Layer: 0
   m_Name: Pellet (54)
   m_TagString: Untagged
@@ -19780,6 +22110,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1441678654
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441678650}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1450447955
 GameObject:
   m_ObjectHideFlags: 0
@@ -19791,6 +22137,7 @@ GameObject:
   - component: {fileID: 1450447956}
   - component: {fileID: 1450447957}
   - component: {fileID: 1450447958}
+  - component: {fileID: 1450447959}
   m_Layer: 0
   m_Name: Pellet (136)
   m_TagString: Untagged
@@ -19877,6 +22224,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1450447959
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450447955}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1460887855
 GameObject:
   m_ObjectHideFlags: 0
@@ -19888,6 +22251,7 @@ GameObject:
   - component: {fileID: 1460887856}
   - component: {fileID: 1460887858}
   - component: {fileID: 1460887857}
+  - component: {fileID: 1460887859}
   m_Layer: 0
   m_Name: Pellet (192)
   m_TagString: Untagged
@@ -19974,6 +22338,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1460887859
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460887855}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1465397886
 GameObject:
   m_ObjectHideFlags: 0
@@ -19985,6 +22365,7 @@ GameObject:
   - component: {fileID: 1465397887}
   - component: {fileID: 1465397888}
   - component: {fileID: 1465397889}
+  - component: {fileID: 1465397890}
   m_Layer: 0
   m_Name: Pellet (31)
   m_TagString: Untagged
@@ -20071,6 +22452,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1465397890
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465397886}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &1473037651
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20418,6 +22815,7 @@ GameObject:
   - component: {fileID: 1482618830}
   - component: {fileID: 1482618831}
   - component: {fileID: 1482618832}
+  - component: {fileID: 1482618833}
   m_Layer: 0
   m_Name: Pellet (123)
   m_TagString: Untagged
@@ -20504,6 +22902,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1482618833
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482618829}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1486159160
 GameObject:
   m_ObjectHideFlags: 0
@@ -20515,6 +22929,7 @@ GameObject:
   - component: {fileID: 1486159161}
   - component: {fileID: 1486159162}
   - component: {fileID: 1486159163}
+  - component: {fileID: 1486159164}
   m_Layer: 0
   m_Name: Pellet (151)
   m_TagString: Untagged
@@ -20601,6 +23016,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1486159164
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486159160}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1494849421 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -20633,6 +23064,7 @@ GameObject:
   - component: {fileID: 1496041554}
   - component: {fileID: 1496041555}
   - component: {fileID: 1496041556}
+  - component: {fileID: 1496041557}
   m_Layer: 0
   m_Name: Pellet (23)
   m_TagString: Untagged
@@ -20719,6 +23151,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1496041557
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496041553}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.00000333786}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1496472516
 GameObject:
   m_ObjectHideFlags: 0
@@ -20730,6 +23178,7 @@ GameObject:
   - component: {fileID: 1496472517}
   - component: {fileID: 1496472518}
   - component: {fileID: 1496472519}
+  - component: {fileID: 1496472520}
   m_Layer: 0
   m_Name: Pellet (87)
   m_TagString: Untagged
@@ -20816,6 +23265,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1496472520
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496472516}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1496482318
 GameObject:
   m_ObjectHideFlags: 0
@@ -20827,6 +23292,7 @@ GameObject:
   - component: {fileID: 1496482319}
   - component: {fileID: 1496482320}
   - component: {fileID: 1496482321}
+  - component: {fileID: 1496482322}
   m_Layer: 0
   m_Name: Pellet (96)
   m_TagString: Untagged
@@ -20913,6 +23379,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1496482322
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496482318}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &1503187253
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21090,6 +23572,7 @@ GameObject:
   - component: {fileID: 1509686451}
   - component: {fileID: 1509686452}
   - component: {fileID: 1509686453}
+  - component: {fileID: 1509686454}
   m_Layer: 0
   m_Name: Pellet (80)
   m_TagString: Untagged
@@ -21176,6 +23659,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1509686454
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509686450}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1509736623
 GameObject:
   m_ObjectHideFlags: 0
@@ -21187,6 +23686,7 @@ GameObject:
   - component: {fileID: 1509736624}
   - component: {fileID: 1509736625}
   - component: {fileID: 1509736626}
+  - component: {fileID: 1509736627}
   m_Layer: 0
   m_Name: Pellet (39)
   m_TagString: Untagged
@@ -21273,6 +23773,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1509736627
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509736623}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.00000333786}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1515189275
 GameObject:
   m_ObjectHideFlags: 0
@@ -21284,6 +23800,7 @@ GameObject:
   - component: {fileID: 1515189276}
   - component: {fileID: 1515189277}
   - component: {fileID: 1515189278}
+  - component: {fileID: 1515189279}
   m_Layer: 0
   m_Name: Pellet (33)
   m_TagString: Untagged
@@ -21370,6 +23887,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1515189279
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515189275}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1518786802
 GameObject:
   m_ObjectHideFlags: 0
@@ -21381,6 +23914,7 @@ GameObject:
   - component: {fileID: 1518786803}
   - component: {fileID: 1518786804}
   - component: {fileID: 1518786805}
+  - component: {fileID: 1518786806}
   m_Layer: 0
   m_Name: Pellet (29)
   m_TagString: Untagged
@@ -21467,6 +24001,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1518786806
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518786802}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1519080982
 GameObject:
   m_ObjectHideFlags: 0
@@ -21478,6 +24028,7 @@ GameObject:
   - component: {fileID: 1519080983}
   - component: {fileID: 1519080984}
   - component: {fileID: 1519080985}
+  - component: {fileID: 1519080986}
   m_Layer: 0
   m_Name: Pellet (161)
   m_TagString: Untagged
@@ -21564,6 +24115,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1519080986
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519080982}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1534448773
 GameObject:
   m_ObjectHideFlags: 0
@@ -21814,6 +24381,7 @@ GameObject:
   - component: {fileID: 1541399594}
   - component: {fileID: 1541399595}
   - component: {fileID: 1541399596}
+  - component: {fileID: 1541399597}
   m_Layer: 0
   m_Name: Pellet (10)
   m_TagString: Untagged
@@ -21900,6 +24468,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1541399597
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541399593}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1558839584 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -21932,6 +24516,7 @@ GameObject:
   - component: {fileID: 1559349995}
   - component: {fileID: 1559349996}
   - component: {fileID: 1559349997}
+  - component: {fileID: 1559349998}
   m_Layer: 0
   m_Name: Pellet (101)
   m_TagString: Untagged
@@ -22018,6 +24603,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1559349998
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559349994}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1562251905 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -22034,6 +24635,7 @@ GameObject:
   - component: {fileID: 1563032569}
   - component: {fileID: 1563032570}
   - component: {fileID: 1563032571}
+  - component: {fileID: 1563032572}
   m_Layer: 0
   m_Name: Pellet (60)
   m_TagString: Untagged
@@ -22120,6 +24722,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1563032572
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563032568}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1564188547
 GameObject:
   m_ObjectHideFlags: 0
@@ -22199,6 +24817,7 @@ GameObject:
   - component: {fileID: 1565629204}
   - component: {fileID: 1565629205}
   - component: {fileID: 1565629206}
+  - component: {fileID: 1565629207}
   m_Layer: 0
   m_Name: Pellet (122)
   m_TagString: Untagged
@@ -22285,6 +24904,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1565629207
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565629203}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1568938102
 GameObject:
   m_ObjectHideFlags: 0
@@ -22296,6 +24931,7 @@ GameObject:
   - component: {fileID: 1568938103}
   - component: {fileID: 1568938104}
   - component: {fileID: 1568938105}
+  - component: {fileID: 1568938106}
   m_Layer: 0
   m_Name: Pellet (21)
   m_TagString: Untagged
@@ -22382,6 +25018,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1568938106
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568938102}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1577811689
 GameObject:
   m_ObjectHideFlags: 0
@@ -22393,6 +25045,7 @@ GameObject:
   - component: {fileID: 1577811690}
   - component: {fileID: 1577811691}
   - component: {fileID: 1577811692}
+  - component: {fileID: 1577811693}
   m_Layer: 0
   m_Name: Pellet (56)
   m_TagString: Untagged
@@ -22479,6 +25132,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1577811693
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577811689}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1578202428
 GameObject:
   m_ObjectHideFlags: 0
@@ -22490,6 +25159,7 @@ GameObject:
   - component: {fileID: 1578202429}
   - component: {fileID: 1578202431}
   - component: {fileID: 1578202430}
+  - component: {fileID: 1578202432}
   m_Layer: 0
   m_Name: Pellet (224)
   m_TagString: Untagged
@@ -22576,6 +25246,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1578202432
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578202428}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!4 &1579964078 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1607844975431623183, guid: 328ed8187566688f6a71d945b4464985, type: 3}
@@ -22592,6 +25278,7 @@ GameObject:
   - component: {fileID: 1585444590}
   - component: {fileID: 1585444591}
   - component: {fileID: 1585444592}
+  - component: {fileID: 1585444593}
   m_Layer: 0
   m_Name: Pellet (95)
   m_TagString: Untagged
@@ -22678,6 +25365,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1585444593
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585444589}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.00000333786}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1586599272 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -22710,6 +25413,7 @@ GameObject:
   - component: {fileID: 1603263697}
   - component: {fileID: 1603263698}
   - component: {fileID: 1603263699}
+  - component: {fileID: 1603263700}
   m_Layer: 0
   m_Name: Pellet (141)
   m_TagString: Untagged
@@ -22796,6 +25500,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1603263700
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603263696}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1612615240
 GameObject:
   m_ObjectHideFlags: 0
@@ -22807,6 +25527,7 @@ GameObject:
   - component: {fileID: 1612615241}
   - component: {fileID: 1612615242}
   - component: {fileID: 1612615243}
+  - component: {fileID: 1612615244}
   m_Layer: 0
   m_Name: Pellet (51)
   m_TagString: Untagged
@@ -22893,6 +25614,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1612615244
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612615240}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1621543666
 GameObject:
   m_ObjectHideFlags: 0
@@ -22904,6 +25641,7 @@ GameObject:
   - component: {fileID: 1621543667}
   - component: {fileID: 1621543668}
   - component: {fileID: 1621543669}
+  - component: {fileID: 1621543670}
   m_Layer: 0
   m_Name: Pellet (144)
   m_TagString: Untagged
@@ -22990,6 +25728,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1621543670
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621543666}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1622804978
 GameObject:
   m_ObjectHideFlags: 0
@@ -23001,6 +25755,10 @@ GameObject:
   - component: {fileID: 1622804980}
   - component: {fileID: 1622804979}
   - component: {fileID: 1622804981}
+  - component: {fileID: 1622804983}
+  - component: {fileID: 1622804982}
+  - component: {fileID: 1622804985}
+  - component: {fileID: 1622804984}
   m_Layer: 0
   m_Name: PACMAN
   m_TagString: Untagged
@@ -23096,6 +25854,88 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!195 &1622804982
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622804978}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1
+  m_BaseOffset: 0.5
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &1622804983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622804978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e81f32acebf6820a8a94cea3e858da3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+--- !u!50 &1622804984
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622804978}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!61 &1622804985
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622804978}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.1, y: 0.1}
+  m_EdgeRadius: 0
 --- !u!1 &1624685383
 GameObject:
   m_ObjectHideFlags: 0
@@ -23107,6 +25947,7 @@ GameObject:
   - component: {fileID: 1624685384}
   - component: {fileID: 1624685385}
   - component: {fileID: 1624685386}
+  - component: {fileID: 1624685387}
   m_Layer: 0
   m_Name: Pellet (92)
   m_TagString: Untagged
@@ -23193,6 +26034,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1624685387
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624685383}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1628881067
 GameObject:
   m_ObjectHideFlags: 0
@@ -23204,6 +26061,7 @@ GameObject:
   - component: {fileID: 1628881068}
   - component: {fileID: 1628881069}
   - component: {fileID: 1628881070}
+  - component: {fileID: 1628881071}
   m_Layer: 0
   m_Name: Pellet (81)
   m_TagString: Untagged
@@ -23290,6 +26148,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1628881071
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628881067}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1629270513
 GameObject:
   m_ObjectHideFlags: 0
@@ -23301,6 +26175,7 @@ GameObject:
   - component: {fileID: 1629270514}
   - component: {fileID: 1629270515}
   - component: {fileID: 1629270516}
+  - component: {fileID: 1629270517}
   m_Layer: 0
   m_Name: Pellet (52)
   m_TagString: Untagged
@@ -23387,6 +26262,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1629270517
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629270513}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1639835804
 GameObject:
   m_ObjectHideFlags: 0
@@ -23398,6 +26289,7 @@ GameObject:
   - component: {fileID: 1639835805}
   - component: {fileID: 1639835807}
   - component: {fileID: 1639835806}
+  - component: {fileID: 1639835808}
   m_Layer: 0
   m_Name: Pellet (148)
   m_TagString: Untagged
@@ -23484,6 +26376,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1639835808
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639835804}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1640490524
 GameObject:
   m_ObjectHideFlags: 0
@@ -23495,6 +26403,7 @@ GameObject:
   - component: {fileID: 1640490525}
   - component: {fileID: 1640490526}
   - component: {fileID: 1640490527}
+  - component: {fileID: 1640490528}
   m_Layer: 0
   m_Name: Pellet (162)
   m_TagString: Untagged
@@ -23581,6 +26490,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1640490528
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640490524}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &1640751376
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23766,6 +26691,7 @@ GameObject:
   - component: {fileID: 1656070260}
   - component: {fileID: 1656070261}
   - component: {fileID: 1656070262}
+  - component: {fileID: 1656070263}
   m_Layer: 0
   m_Name: Pellet (106)
   m_TagString: Untagged
@@ -23852,6 +26778,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1656070263
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656070259}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.00000333786}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1662187682
 GameObject:
   m_ObjectHideFlags: 0
@@ -23863,6 +26805,7 @@ GameObject:
   - component: {fileID: 1662187683}
   - component: {fileID: 1662187684}
   - component: {fileID: 1662187685}
+  - component: {fileID: 1662187686}
   m_Layer: 0
   m_Name: Pellet (16)
   m_TagString: Untagged
@@ -23949,6 +26892,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1662187686
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662187682}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1684367266
 GameObject:
   m_ObjectHideFlags: 0
@@ -23960,6 +26919,7 @@ GameObject:
   - component: {fileID: 1684367267}
   - component: {fileID: 1684367268}
   - component: {fileID: 1684367269}
+  - component: {fileID: 1684367270}
   m_Layer: 0
   m_Name: Pellet (53)
   m_TagString: Untagged
@@ -24046,6 +27006,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1684367270
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684367266}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1686097352 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -24083,6 +27059,7 @@ GameObject:
   - component: {fileID: 1699971303}
   - component: {fileID: 1699971304}
   - component: {fileID: 1699971305}
+  - component: {fileID: 1699971306}
   m_Layer: 0
   m_Name: Pellet (42)
   m_TagString: Untagged
@@ -24169,6 +27146,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1699971306
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699971302}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1706368137
 GameObject:
   m_ObjectHideFlags: 0
@@ -24180,6 +27173,7 @@ GameObject:
   - component: {fileID: 1706368138}
   - component: {fileID: 1706368139}
   - component: {fileID: 1706368140}
+  - component: {fileID: 1706368141}
   m_Layer: 0
   m_Name: Pellet (15)
   m_TagString: Untagged
@@ -24266,6 +27260,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1706368141
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706368137}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1719132713
 GameObject:
   m_ObjectHideFlags: 0
@@ -24277,6 +27287,7 @@ GameObject:
   - component: {fileID: 1719132714}
   - component: {fileID: 1719132715}
   - component: {fileID: 1719132716}
+  - component: {fileID: 1719132717}
   m_Layer: 0
   m_Name: Pellet (71)
   m_TagString: Untagged
@@ -24363,6 +27374,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1719132717
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719132713}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.00000333786}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &1732552039
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24544,6 +27571,7 @@ GameObject:
   - component: {fileID: 1740629148}
   - component: {fileID: 1740629149}
   - component: {fileID: 1740629150}
+  - component: {fileID: 1740629151}
   m_Layer: 0
   m_Name: Pellet (32)
   m_TagString: Untagged
@@ -24630,6 +27658,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1740629151
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740629147}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.00000333786}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1774188992 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -24662,6 +27706,7 @@ GameObject:
   - component: {fileID: 1782112573}
   - component: {fileID: 1782112575}
   - component: {fileID: 1782112574}
+  - component: {fileID: 1782112576}
   m_Layer: 0
   m_Name: Pellet (215)
   m_TagString: Untagged
@@ -24748,6 +27793,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1782112576
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782112572}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1792990399 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -24764,6 +27825,7 @@ GameObject:
   - component: {fileID: 1806742063}
   - component: {fileID: 1806742064}
   - component: {fileID: 1806742065}
+  - component: {fileID: 1806742066}
   m_Layer: 0
   m_Name: Pellet (130)
   m_TagString: Untagged
@@ -24850,6 +27912,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1806742066
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806742062}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1809688982
 GameObject:
   m_ObjectHideFlags: 0
@@ -24861,6 +27939,7 @@ GameObject:
   - component: {fileID: 1809688983}
   - component: {fileID: 1809688984}
   - component: {fileID: 1809688985}
+  - component: {fileID: 1809688986}
   m_Layer: 0
   m_Name: Pellet (153)
   m_TagString: Untagged
@@ -24947,6 +28026,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1809688986
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809688982}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1811641759
 GameObject:
   m_ObjectHideFlags: 0
@@ -24958,6 +28053,7 @@ GameObject:
   - component: {fileID: 1811641760}
   - component: {fileID: 1811641761}
   - component: {fileID: 1811641762}
+  - component: {fileID: 1811641763}
   m_Layer: 0
   m_Name: Pellet (35)
   m_TagString: Untagged
@@ -25044,6 +28140,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1811641763
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811641759}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &1817036182
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25246,6 +28358,7 @@ GameObject:
   - component: {fileID: 1824606905}
   - component: {fileID: 1824606906}
   - component: {fileID: 1824606907}
+  - component: {fileID: 1824606908}
   m_Layer: 0
   m_Name: Pellet (135)
   m_TagString: Untagged
@@ -25332,6 +28445,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1824606908
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824606904}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &1826550215
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25509,6 +28638,7 @@ GameObject:
   - component: {fileID: 1835077827}
   - component: {fileID: 1835077828}
   - component: {fileID: 1835077829}
+  - component: {fileID: 1835077830}
   m_Layer: 0
   m_Name: Pellet (61)
   m_TagString: Untagged
@@ -25595,6 +28725,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1835077830
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835077826}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1835476825
 GameObject:
   m_ObjectHideFlags: 0
@@ -25606,6 +28752,7 @@ GameObject:
   - component: {fileID: 1835476826}
   - component: {fileID: 1835476827}
   - component: {fileID: 1835476828}
+  - component: {fileID: 1835476829}
   m_Layer: 0
   m_Name: Pellet (74)
   m_TagString: Untagged
@@ -25692,6 +28839,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1835476829
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835476825}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1839555993
 GameObject:
   m_ObjectHideFlags: 0
@@ -25703,6 +28866,7 @@ GameObject:
   - component: {fileID: 1839555994}
   - component: {fileID: 1839555995}
   - component: {fileID: 1839555996}
+  - component: {fileID: 1839555997}
   m_Layer: 0
   m_Name: Pellet (163)
   m_TagString: Untagged
@@ -25789,6 +28953,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1839555997
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839555993}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1840938005
 GameObject:
   m_ObjectHideFlags: 0
@@ -25800,6 +28980,7 @@ GameObject:
   - component: {fileID: 1840938006}
   - component: {fileID: 1840938008}
   - component: {fileID: 1840938007}
+  - component: {fileID: 1840938009}
   m_Layer: 0
   m_Name: Pellet (206)
   m_TagString: Untagged
@@ -25886,6 +29067,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1840938009
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840938005}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &1844568522
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26051,6 +29248,7 @@ GameObject:
   - component: {fileID: 1851699431}
   - component: {fileID: 1851699432}
   - component: {fileID: 1851699433}
+  - component: {fileID: 1851699434}
   m_Layer: 0
   m_Name: Pellet (45)
   m_TagString: Untagged
@@ -26137,6 +29335,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1851699434
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851699430}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1854939595
 GameObject:
   m_ObjectHideFlags: 0
@@ -26148,6 +29362,7 @@ GameObject:
   - component: {fileID: 1854939596}
   - component: {fileID: 1854939597}
   - component: {fileID: 1854939598}
+  - component: {fileID: 1854939599}
   m_Layer: 0
   m_Name: Pellet (18)
   m_TagString: Untagged
@@ -26234,6 +29449,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1854939599
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854939595}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1869943245
 GameObject:
   m_ObjectHideFlags: 0
@@ -26245,6 +29476,7 @@ GameObject:
   - component: {fileID: 1869943246}
   - component: {fileID: 1869943248}
   - component: {fileID: 1869943247}
+  - component: {fileID: 1869943249}
   m_Layer: 0
   m_Name: Pellet (222)
   m_TagString: Untagged
@@ -26331,6 +29563,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1869943249
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869943245}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1871489818
 GameObject:
   m_ObjectHideFlags: 0
@@ -26624,6 +29872,7 @@ GameObject:
   - component: {fileID: 1894585345}
   - component: {fileID: 1894585346}
   - component: {fileID: 1894585347}
+  - component: {fileID: 1894585348}
   m_Layer: 0
   m_Name: Pellet (97)
   m_TagString: Untagged
@@ -26710,6 +29959,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1894585348
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894585344}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1908181364
 GameObject:
   m_ObjectHideFlags: 0
@@ -26721,6 +29986,7 @@ GameObject:
   - component: {fileID: 1908181365}
   - component: {fileID: 1908181366}
   - component: {fileID: 1908181367}
+  - component: {fileID: 1908181368}
   m_Layer: 0
   m_Name: Pellet (121)
   m_TagString: Untagged
@@ -26807,6 +30073,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1908181368
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908181364}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1921456360
 GameObject:
   m_ObjectHideFlags: 0
@@ -26951,6 +30233,7 @@ GameObject:
   - component: {fileID: 1931854871}
   - component: {fileID: 1931854872}
   - component: {fileID: 1931854873}
+  - component: {fileID: 1931854874}
   m_Layer: 0
   m_Name: Pellet (90)
   m_TagString: Untagged
@@ -27037,6 +30320,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1931854874
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931854870}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1939526473
 GameObject:
   m_ObjectHideFlags: 0
@@ -27048,6 +30347,7 @@ GameObject:
   - component: {fileID: 1939526474}
   - component: {fileID: 1939526476}
   - component: {fileID: 1939526475}
+  - component: {fileID: 1939526477}
   m_Layer: 0
   m_Name: Pellet (197)
   m_TagString: Untagged
@@ -27134,6 +30434,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1939526477
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939526473}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1939933290
 GameObject:
   m_ObjectHideFlags: 0
@@ -27145,6 +30461,7 @@ GameObject:
   - component: {fileID: 1939933291}
   - component: {fileID: 1939933292}
   - component: {fileID: 1939933293}
+  - component: {fileID: 1939933294}
   m_Layer: 0
   m_Name: Pellet (2)
   m_TagString: Untagged
@@ -27231,6 +30548,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1939933294
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939933290}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1952567968
 GameObject:
   m_ObjectHideFlags: 0
@@ -27242,6 +30575,7 @@ GameObject:
   - component: {fileID: 1952567969}
   - component: {fileID: 1952567970}
   - component: {fileID: 1952567971}
+  - component: {fileID: 1952567972}
   m_Layer: 0
   m_Name: Pellet (62)
   m_TagString: Untagged
@@ -27328,6 +30662,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1952567972
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952567968}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.000000834465}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &1975244649
 GameObject:
   m_ObjectHideFlags: 0
@@ -27339,6 +30689,7 @@ GameObject:
   - component: {fileID: 1975244650}
   - component: {fileID: 1975244651}
   - component: {fileID: 1975244652}
+  - component: {fileID: 1975244653}
   m_Layer: 0
   m_Name: Pellet (111)
   m_TagString: Untagged
@@ -27425,6 +30776,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1975244653
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975244649}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.00000333786}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &1979634693
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27602,6 +30969,7 @@ GameObject:
   - component: {fileID: 1980374507}
   - component: {fileID: 1980374508}
   - component: {fileID: 1980374509}
+  - component: {fileID: 1980374510}
   m_Layer: 0
   m_Name: Pellet (11)
   m_TagString: Untagged
@@ -27688,6 +31056,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1980374510
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980374506}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &2001979901
 GameObject:
   m_ObjectHideFlags: 0
@@ -27699,6 +31083,7 @@ GameObject:
   - component: {fileID: 2001979902}
   - component: {fileID: 2001979904}
   - component: {fileID: 2001979903}
+  - component: {fileID: 2001979905}
   m_Layer: 0
   m_Name: Pellet (213)
   m_TagString: Untagged
@@ -27785,6 +31170,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &2001979905
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001979901}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &2010878653
 GameObject:
   m_ObjectHideFlags: 0
@@ -27796,6 +31197,7 @@ GameObject:
   - component: {fileID: 2010878654}
   - component: {fileID: 2010878656}
   - component: {fileID: 2010878655}
+  - component: {fileID: 2010878657}
   m_Layer: 0
   m_Name: Pellet (196)
   m_TagString: Untagged
@@ -27882,6 +31284,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &2010878657
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010878653}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &2027478748 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -27914,6 +31332,7 @@ GameObject:
   - component: {fileID: 2033023512}
   - component: {fileID: 2033023513}
   - component: {fileID: 2033023514}
+  - component: {fileID: 2033023515}
   m_Layer: 0
   m_Name: Pellet (77)
   m_TagString: Untagged
@@ -28000,6 +31419,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &2033023515
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033023511}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &2034091118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28181,6 +31616,7 @@ GameObject:
   - component: {fileID: 2052599631}
   - component: {fileID: 2052599632}
   - component: {fileID: 2052599633}
+  - component: {fileID: 2052599634}
   m_Layer: 0
   m_Name: Pellet (132)
   m_TagString: Untagged
@@ -28267,6 +31703,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &2052599634
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052599630}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &2058806083
 GameObject:
   m_ObjectHideFlags: 0
@@ -28278,6 +31730,7 @@ GameObject:
   - component: {fileID: 2058806084}
   - component: {fileID: 2058806086}
   - component: {fileID: 2058806085}
+  - component: {fileID: 2058806087}
   m_Layer: 0
   m_Name: Pellet (203)
   m_TagString: Untagged
@@ -28364,6 +31817,43 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &2058806087
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058806083}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
+--- !u!1 &2061962017 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1607844975431623180, guid: 328ed8187566688f6a71d945b4464985, type: 3}
+  m_PrefabInstance: {fileID: 1607844976804492449}
+  m_PrefabAsset: {fileID: 0}
+--- !u!58 &2061962020
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061962017}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &2070424286
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28545,6 +32035,7 @@ GameObject:
   - component: {fileID: 2093385949}
   - component: {fileID: 2093385950}
   - component: {fileID: 2093385951}
+  - component: {fileID: 2093385952}
   m_Layer: 0
   m_Name: Pellet (164)
   m_TagString: Untagged
@@ -28631,6 +32122,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &2093385952
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093385948}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &2115097898
 GameObject:
   m_ObjectHideFlags: 0
@@ -28642,6 +32149,7 @@ GameObject:
   - component: {fileID: 2115097899}
   - component: {fileID: 2115097900}
   - component: {fileID: 2115097901}
+  - component: {fileID: 2115097902}
   m_Layer: 0
   m_Name: Pellet (41)
   m_TagString: Untagged
@@ -28728,6 +32236,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &2115097902
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115097898}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &2127763091 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1314907599815972760, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
@@ -28760,6 +32284,7 @@ GameObject:
   - component: {fileID: 2135692333}
   - component: {fileID: 2135692334}
   - component: {fileID: 2135692335}
+  - component: {fileID: 2135692336}
   m_Layer: 0
   m_Name: Pellet (30)
   m_TagString: Untagged
@@ -28846,6 +32371,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &2135692336
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135692332}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000038146973}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &2139228625
 GameObject:
   m_ObjectHideFlags: 0
@@ -28857,6 +32398,7 @@ GameObject:
   - component: {fileID: 2139228626}
   - component: {fileID: 2139228627}
   - component: {fileID: 2139228628}
+  - component: {fileID: 2139228629}
   m_Layer: 0
   m_Name: Pellet (83)
   m_TagString: Untagged
@@ -28943,6 +32485,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &2139228629
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139228625}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.000000834465}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &2139620640
 GameObject:
   m_ObjectHideFlags: 0
@@ -28954,6 +32512,7 @@ GameObject:
   - component: {fileID: 2139620641}
   - component: {fileID: 2139620642}
   - component: {fileID: 2139620643}
+  - component: {fileID: 2139620644}
   m_Layer: 0
   m_Name: Pellet (73)
   m_TagString: Untagged
@@ -29040,6 +32599,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &2139620644
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139620640}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000019073486}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &2140626274
 GameObject:
   m_ObjectHideFlags: 0
@@ -29051,6 +32626,7 @@ GameObject:
   - component: {fileID: 2140626275}
   - component: {fileID: 2140626276}
   - component: {fileID: 2140626277}
+  - component: {fileID: 2140626278}
   m_Layer: 0
   m_Name: Pellet (109)
   m_TagString: Untagged
@@ -29137,6 +32713,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &2140626278
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2140626274}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.00000333786}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &2142570476
 GameObject:
   m_ObjectHideFlags: 0
@@ -29148,6 +32740,7 @@ GameObject:
   - component: {fileID: 2142570477}
   - component: {fileID: 2142570478}
   - component: {fileID: 2142570479}
+  - component: {fileID: 2142570480}
   m_Layer: 0
   m_Name: Pellet (76)
   m_TagString: Untagged
@@ -29234,6 +32827,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0be5f7aa815eb1b48d8a1d03450b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &2142570480
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2142570476}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.000000834465}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1 &2147455965
 GameObject:
   m_ObjectHideFlags: 0
@@ -29245,6 +32854,7 @@ GameObject:
   - component: {fileID: 2147455966}
   - component: {fileID: 2147455968}
   - component: {fileID: 2147455967}
+  - component: {fileID: 2147455969}
   m_Layer: 0
   m_Name: Pellet (220)
   m_TagString: Untagged
@@ -29331,6 +32941,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &2147455969
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2147455965}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000011920929}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!1001 &1607844976804492449
 PrefabInstance:
   m_ObjectHideFlags: 0

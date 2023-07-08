@@ -1,7 +1,11 @@
 using UnityEngine;
 
 public class Pellet : MonoBehaviour {
-    private void OnCollisionEnter2D(Collision2D other) {
-        Destroy(gameObject);
+    private void OnTriggerEnter2D(Collider2D hitInfo) {
+        PACMAN pacman = hitInfo.GetComponent<PACMAN>();
+
+        if (pacman != null) {
+            Destroy(gameObject);
+        }
     }
 }
