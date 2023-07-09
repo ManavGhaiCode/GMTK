@@ -11409,7 +11409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.5
-  startDelay: 20
+  startDelay: 40
 --- !u!195 &671380326
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -15342,7 +15342,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.5
-  startDelay: 30
+  startDelay: 60
 --- !u!195 &958567845
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -31036,7 +31036,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.5
-  startDelay: 10
+  startDelay: 20
 --- !u!195 &1921456366
 NavMeshAgent:
   m_ObjectHideFlags: 0
