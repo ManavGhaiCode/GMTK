@@ -13,6 +13,7 @@ public class PACMAN : MonoBehaviour {
     private float GhostDist = 0f;
     private Vector2 avgGhostPos;
 
+    public SceneSwitch main;
 
     [SerializeField] private Transform[] Ghosts;
     [SerializeField] private GameObject[] Masks;
@@ -93,6 +94,10 @@ public class PACMAN : MonoBehaviour {
         sprite.color = new Color (255, 239, 85);
     }
 
+    void EndGame() {
+        main.SwitchScene("GameEnd");
+    }
+
     public Vector2 GetTarget() {
         return Target.position;
     }
@@ -100,7 +105,10 @@ public class PACMAN : MonoBehaviour {
 
     public void kill() {
         if (!isResponing) {
-            Destroy(Masks[4 - lifes]);
+            if (lifes > 0) {
+                Destroy(Masks[4 - lifes]);
+            }
+
             lifes -= 1;
 
             if (lifes > 0) {
@@ -114,6 +122,7 @@ public class PACMAN : MonoBehaviour {
                 return;
             }
 
+            Invoke("EndGame", 2f);
             Destroy(gameObject);
         }
     }
