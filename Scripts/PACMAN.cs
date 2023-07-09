@@ -44,7 +44,7 @@ public class PACMAN : MonoBehaviour {
 
             if (dist < lowestDist) {
                 if (!(dist < .18f)) {
-                    if (ghostDist >= GhostDist - .4f) {
+                    if (ghostDist >= GhostDist - .2f) {
                         lowestDist = dist;
                         LocalTarget = pellet;
                     }
