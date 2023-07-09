@@ -228,7 +228,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.y
-      value: 2.75
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -497,7 +497,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.x
-      value: 1.75
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
+      propertyPath: m_Size.y
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -651,7 +655,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.x
-      value: 1.75
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
+      propertyPath: m_Size.y
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -1157,7 +1165,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.x
-      value: 3.75
+      value: 3.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
+      propertyPath: m_Size.y
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -1877,7 +1889,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.x
-      value: 2.75
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
+      propertyPath: m_Size.y
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -2777,11 +2793,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.x
-      value: 1.75
+      value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.y
-      value: 0.75
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -3513,7 +3529,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.x
-      value: 1.75
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
+      propertyPath: m_Size.y
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -3781,7 +3801,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.y
-      value: 2.75
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -4408,11 +4428,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.x
-      value: 0.75
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.y
-      value: 0.75
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -4566,7 +4586,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.x
-      value: 1.75
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
+      propertyPath: m_Size.y
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -4835,7 +4859,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.y
-      value: 2.75
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -5234,7 +5258,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.y
-      value: 2.75
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -5612,7 +5636,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.x
-      value: 5.75
+      value: 5.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
+      propertyPath: m_Size.y
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -5766,7 +5794,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.x
-      value: 5.75
+      value: 5.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
+      propertyPath: m_Size.y
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -5916,7 +5948,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.x
-      value: 2.75
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
+      propertyPath: m_Size.y
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -9032,7 +9068,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.y
-      value: 2.75
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -9974,7 +10010,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.y
-      value: 2.75
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -10647,7 +10683,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.x
-      value: 1.75
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
+      propertyPath: m_Size.y
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -11272,11 +11312,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.x
-      value: 1.75
+      value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.y
-      value: 2.75
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -12799,7 +12839,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.y
-      value: 2.75
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -13435,7 +13475,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.x
-      value: 5.75
+      value: 5.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
+      propertyPath: m_Size.y
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -13589,7 +13633,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.y
-      value: 3.75
+      value: 3.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -17049,11 +17093,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.x
-      value: 1.75
+      value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.y
-      value: 2.75
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -17933,7 +17977,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.x
-      value: 3.75
+      value: 3.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -18441,11 +18485,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.x
-      value: 1.75
+      value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.y
-      value: 2.75
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -18843,7 +18887,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.x
-      value: 1.75
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
+      propertyPath: m_Size.y
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -19465,7 +19513,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.y
-      value: 2.75
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -19749,7 +19797,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.x
-      value: 3.75
+      value: 3.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
+      propertyPath: m_Size.y
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -21081,11 +21133,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.x
-      value: 0.75
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.y
-      value: 2.75
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -21690,6 +21742,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
+      propertyPath: m_Size.x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
+      propertyPath: m_Size.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
       value: 0
       objectReference: {fileID: 0}
@@ -21837,7 +21897,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.x
-      value: 1.75
+      value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -22573,11 +22633,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.x
-      value: 1.75
+      value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.y
-      value: 2.75
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -22743,7 +22803,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.y
-      value: 2.75
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -23500,7 +23560,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.x
-      value: 4.75
+      value: 4.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -25757,8 +25817,8 @@ GameObject:
   - component: {fileID: 1622804981}
   - component: {fileID: 1622804983}
   - component: {fileID: 1622804982}
-  - component: {fileID: 1622804985}
   - component: {fileID: 1622804984}
+  - component: {fileID: 1622804985}
   m_Layer: 0
   m_Name: PACMAN
   m_TagString: Untagged
@@ -25889,6 +25949,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  Ghosts:
+  - {fileID: 490100732}
+  - {fileID: 671380322}
+  - {fileID: 1921456362}
+  - {fileID: 958567841}
 --- !u!50 &1622804984
 Rigidbody2D:
   serializedVersion: 4
@@ -25910,8 +25975,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &1622804985
-BoxCollider2D:
+--- !u!58 &1622804985
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -25924,18 +25989,8 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.1, y: 0.1}
-  m_EdgeRadius: 0
+  m_Radius: 0.2
 --- !u!1 &1624685383
 GameObject:
   m_ObjectHideFlags: 0
@@ -26615,11 +26670,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.x
-      value: 1.75
+      value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.y
-      value: 0.75
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -27499,7 +27554,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.x
-      value: 4.75
+      value: 4.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -28265,7 +28320,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.x
-      value: 1.75
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
+      propertyPath: m_Size.y
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -28566,7 +28625,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.y
-      value: 2.75
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -29192,7 +29251,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.y
-      value: 2.75
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -29816,7 +29875,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.y
-      value: 3.75
+      value: 3.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -30897,7 +30956,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.x
-      value: 5.75
+      value: 5.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
+      propertyPath: m_Size.y
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -31544,7 +31607,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.x
-      value: 3.75
+      value: 3.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
+      propertyPath: m_Size.y
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
@@ -31963,7 +32030,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_Size.x
-      value: 4.75
+      value: 4.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
+      propertyPath: m_Size.y
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 6582692786052191451, guid: 23d6206f8ebf0e817990383ffb1ae7e5, type: 3}
       propertyPath: m_EdgeRadius
