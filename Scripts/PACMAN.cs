@@ -3,6 +3,7 @@ using UnityEngine.AI;
 
 public class PACMAN : MonoBehaviour {
     public float speed = 2f;
+    public Vector2 OriginalPos;
 
     private Transform Target;
     private Rigidbody2D rb;
@@ -12,6 +13,7 @@ public class PACMAN : MonoBehaviour {
     private Vector2 avgGhostPos;
 
     [SerializeField] private Transform[] Ghosts;
+    [SerializeField] private int lifes = 4;
 
     private void Start() {
         agent = GetComponent<NavMeshAgent>();
@@ -77,6 +79,16 @@ public class PACMAN : MonoBehaviour {
     }
 
     public void kill() {
+        if (lifes > 0) {
+            transform.position = OriginalPos;
+
+            lifes -= 1;
+
+            agent.SetDestination(OriginalPos);
+
+            return;
+        }
+
         Destroy(gameObject);
     }
 };
