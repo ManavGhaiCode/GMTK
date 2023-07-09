@@ -1,13 +1,13 @@
 using UnityEngine;
 using UnityEngine.AI;
 
-public class GhostPink : MonoBehaviour {
+public class GhostBlue : MonoBehaviour {
     public float speed = 2f;
-    public float startDelay = 10f;
+    public float startDelay = 30f;
 
     private NavMeshAgent agent;
     private float TimeToStart;
-    private PACMAN pacmanAI;
+    private Transform pacman;
 
     private void Awake() {
         TimeToStart = Time.time + startDelay;
@@ -20,12 +20,12 @@ public class GhostPink : MonoBehaviour {
 
         agent.speed = speed;
 
-        pacmanAI = GameObject.FindObjectOfType<PACMAN>();
+        pacman = GameObject.FindObjectOfType<PACMAN>().gameObject.transform;
     }
 
     private void FixedUpdate() {
-        if (Time.time > TimeToStart && pacmanAI.GetTarget() != null) {
-            agent.SetDestination(pacmanAI.GetTarget());
+        if (Time.time > TimeToStart) {
+            agent.SetDestination(new Vector2 (pacman.position.x + Random.Range(-2, 2), pacman.position.y + Random.Range(-2, 2)));
         }
     }
 }
