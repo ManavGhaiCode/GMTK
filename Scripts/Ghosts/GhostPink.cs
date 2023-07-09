@@ -8,6 +8,7 @@ public class GhostPink : MonoBehaviour {
     private NavMeshAgent agent;
     private float TimeToStart;
     private Transform pacman;
+    private PACMAN pacmanAI;
 
     private void Awake() {
         TimeToStart = Time.time + startDelay;
@@ -21,6 +22,7 @@ public class GhostPink : MonoBehaviour {
         agent.speed = speed;
 
         pacman = GameObject.FindObjectOfType<PACMAN>().gameObject.transform;
+        pacmanAI = GameObject.FindObjectOfType<PACMAN>();
     }
 
     private void FixedUpdate() {

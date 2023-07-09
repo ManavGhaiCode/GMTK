@@ -69,4 +69,8 @@ public class PACMAN : MonoBehaviour {
             agent.SetDestination(Target.position);
         }
     }
+
+    public Vector2 GetTarget() {
+        return Target.position;
+    }
 };
