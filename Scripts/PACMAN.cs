@@ -15,6 +15,7 @@ public class PACMAN : MonoBehaviour {
 
 
     [SerializeField] private Transform[] Ghosts;
+    [SerializeField] private GameObject[] Masks;
     [SerializeField] private Transform ResponPoint;
     [SerializeField] private int lifes = 4;
 
@@ -99,8 +100,10 @@ public class PACMAN : MonoBehaviour {
 
     public void kill() {
         if (!isResponing) {
+            Destroy(Masks[4 - lifes]);
+            lifes -= 1;
+
             if (lifes > 0) {
-                lifes -= 1;
                 agent.SetDestination(new Vector2 (0, 3.75f));
 
                 speed += .5f;
