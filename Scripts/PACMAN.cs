@@ -33,7 +33,7 @@ public class PACMAN : MonoBehaviour {
     }
 
     private void Update() {
-        Collider2D ghost = Physics2D.OverlapCircle(transform.position, 1.5f, Action);
+        Collider2D ghost = Physics2D.OverlapCircle(transform.position, 2f, Action);
 
         if (ghost != null) {
             Transform ghostTransform = ghost.GetComponent<Transform>();
