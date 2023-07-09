@@ -32,7 +32,6 @@ public class PACMAN : MonoBehaviour {
     }
 
     private void Update() {
-
         if (!isResponing) {
             avgGhostPos = (Ghosts[0].position + Ghosts[1].position + Ghosts[2].position + Ghosts[3].position) / new Vector2 (4, 4);
             GhostDist = Vector2.Distance(transform.position, avgGhostPos);
@@ -75,7 +74,7 @@ public class PACMAN : MonoBehaviour {
                 Target = ResponPoint;
                 agent.SetDestination(ResponPoint.position);
 
-            if (Vector2.Distance(transform.position, ResponPoint.position) < .1f) {
+            if (Vector2.Distance(transform.position, ResponPoint.position) < .05f) {
                 Invoke("SetIsResponingf", .2f);
             }
         }
