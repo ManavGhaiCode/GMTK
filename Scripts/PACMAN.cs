@@ -65,6 +65,10 @@ public class PACMAN : MonoBehaviour {
         } else {
             Target = ResponPoint;
             agent.SetDestination(ResponPoint.position);
+
+            if (Vector3.Distance(transform.position, ResponPoint.position) < .05f) {
+                Invoke("SetIsResponingf", .1f);
+            }
         }
     }
 
@@ -99,8 +103,6 @@ public class PACMAN : MonoBehaviour {
                 isResponing = true;
                 agent.speed = speed;
 
-
-                Invoke("SetIsResponingf", 5f);
 
                 return;
             }
