@@ -9,6 +9,7 @@ public class PACMAN : MonoBehaviour {
     private NavMeshAgent agent;
 
     private float GhostDist = 0f;
+    private Vector2 avgGhostPos;
 
     [SerializeField] private Transform[] Ghosts;
 
@@ -23,7 +24,8 @@ public class PACMAN : MonoBehaviour {
     }
 
     private void Update() {
-        GhostDist = Vector2.Distance(transform.position, Ghosts[0].position);
+        avgGhostPos = (Ghosts[0].position + Ghosts[1].position + Ghosts[2].position + Ghosts[3].position) / new Vector2 (4, 4);
+        GhostDist = Vector2.Distance(transform.position, avgGhostPos);
 
         Pellet[] pa = GameObject.FindObjectsOfType<Pellet>();
         GameObject[] pellets = new GameObject[pa.Length];
