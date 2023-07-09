@@ -39,6 +39,10 @@ public class PACMAN : MonoBehaviour {
             Pellet[] pa = GameObject.FindObjectsOfType<Pellet>();
             GameObject[] pellets = new GameObject[pa.Length];
 
+            if (pellets.Length <= 0) {
+                Invoke("EndGame", 2f);
+            }
+
             int i = 0;
 
             foreach (Pellet pellet in pa) {
@@ -96,6 +100,10 @@ public class PACMAN : MonoBehaviour {
 
     void EndGame() {
         main.SwitchScene("GameEnd");
+    }
+
+    void Loose() {
+        main.SwitchScene("DeathEnd");
     }
 
     public Vector2 GetTarget() {
