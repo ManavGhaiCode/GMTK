@@ -41,54 +41,62 @@ public class PACMAN : MonoBehaviour {
             Vector2 oppVet = (transform.position - ghostTransform.position);
 
             agent.SetDestination((Vector2)transform.position + oppVet);
-            return;
-        }
+        } else {
+            if (!isResponing) {
+                avgGhostPos = (Ghosts[0].position + Ghosts[1].position + Ghosts[2].position + Ghosts[3].position) / new Vector2 (4, 4);
+                GhostDist = Vector2.Distance(transform.position, avgGhostPos);
 
-        if (!isResponing) {
-            avgGhostPos = (Ghosts[0].position + Ghosts[1].position + Ghosts[2].position + Ghosts[3].position) / new Vector2 (4, 4);
-            GhostDist = Vector2.Distance(transform.position, avgGhostPos);
+                Pellet[] pa = GameObject.FindObjectsOfType<Pellet>();
+                GameObject[] pellets = new GameObject[pa.Length];
 
-            Pellet[] pa = GameObject.FindObjectsOfType<Pellet>();
-            GameObject[] pellets = new GameObject[pa.Length];
+                if (pellets.Length <= 0) {
+                    Invoke("EndGame", 2f);
+                }
 
-            if (pellets.Length <= 0) {
-                Invoke("EndGame", 2f);
-            }
+                int i = 0;
 
-            int i = 0;
+                foreach (Pellet pellet in pa) {
+                    pellets.SetValue(pellet.gameObject, i);
+                    i++;
+                }
 
-            foreach (Pellet pellet in pa) {
-                pellets.SetValue(pellet.gameObject, i);
-                i++;
-            }
+                float lowestDist = Mathf.Infinity;
+                GameObject LocalTarget = null;
 
-            float lowestDist = Mathf.Infinity;
-            GameObject LocalTarget = null;
+                foreach (GameObject pellet in pellets) {
+                    float dist = Vector2.Distance(transform.position, pellet.transform.position);
+                    float ghostDist = Vector2.Distance(Ghosts[0].position, pellet.transform.position);
 
-            foreach (GameObject pellet in pellets) {
-                float dist = Vector2.Distance(transform.position, pellet.transform.position);
-                float ghostDist = Vector2.Distance(Ghosts[0].position, pellet.transform.position);
-
-                if (dist < lowestDist) {
-                    if (!(dist < .18f)) {
-                        if (ghostDist >= GhostDist - .2f) {
-                            lowestDist = dist;
-                            LocalTarget = pellet;
+                    if (dist < lowestDist) {
+                        if (!(dist < .18f)) {
+                            if (ghostDist >= GhostDist - .2f) {
+                                lowestDist = dist;
+                                LocalTarget = pellet;
+                            }
                         }
                     }
                 }
-            }
 
-            if (LocalTarget != Target) {
-                Target = LocalTarget.transform;
+                if (LocalTarget != Target) {
+                    Target = LocalTarget.transform;
+                }
+            } else {
+                Target = ResponPoint;
+                agent.SetDestination(ResponPoint.position);
+
+                if (Vector2.Distance(transform.position, ResponPoint.position) < .1f) {
+                    Invoke("SetIsResponingf", .2f);
+                }
             }
-        } else {
+        }
+
+        if (isResponing) {
             Target = ResponPoint;
             agent.SetDestination(ResponPoint.position);
 
-            if (Vector2.Distance(transform.position, ResponPoint.position) < .1f) {
-                Invoke("SetIsResponingf", .2f);
-            }
+                if (Vector2.Distance(transform.position, ResponPoint.position) < .1f) {
+                    Invoke("SetIsResponingf", .2f);
+                }
         }
     }
 
