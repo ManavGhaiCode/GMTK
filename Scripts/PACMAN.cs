@@ -3,6 +3,7 @@ using UnityEngine.AI;
 
 public class PACMAN : MonoBehaviour {
     public float speed = 2f;
+    public LayerMask Action;
 
     private Transform Target;
     private SpriteRenderer sprite;
@@ -32,6 +33,17 @@ public class PACMAN : MonoBehaviour {
     }
 
     private void Update() {
+        Collider2D ghost = Physics2D.OverlapCircle(transform.position, 1.5f, Action);
+
+        if (ghost != null) {
+            Transform ghostTransform = ghost.GetComponent<Transform>();
+
+            Vector2 oppVet = (transform.position - ghostTransform.position);
+
+            agent.SetDestination((Vector2)transform.position + oppVet);
+            return;
+        }
+
         if (!isResponing) {
             avgGhostPos = (Ghosts[0].position + Ghosts[1].position + Ghosts[2].position + Ghosts[3].position) / new Vector2 (4, 4);
             GhostDist = Vector2.Distance(transform.position, avgGhostPos);
@@ -74,7 +86,7 @@ public class PACMAN : MonoBehaviour {
             Target = ResponPoint;
             agent.SetDestination(ResponPoint.position);
 
-            if (Vector2.Distance(transform.position, ResponPoint.position) < .05f) {
+            if (Vector2.Distance(transform.position, ResponPoint.position) < .1f) {
                 Invoke("SetIsResponingf", .2f);
             }
         }
