@@ -8948,7 +8948,7 @@ GameObject:
   - component: {fileID: 490100735}
   - component: {fileID: 490100737}
   - component: {fileID: 490100736}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Ghosts_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11301,7 +11301,7 @@ GameObject:
   - component: {fileID: 671380326}
   - component: {fileID: 671380325}
   - component: {fileID: 671380327}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Ghosts_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15234,7 +15234,7 @@ GameObject:
   - component: {fileID: 958567845}
   - component: {fileID: 958567844}
   - component: {fileID: 958567846}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Ghosts_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26672,9 +26672,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2.8
-  Action:
-    serializedVersion: 2
-    m_Bits: 128
   main: {fileID: 1047339388}
   Ghosts:
   - {fileID: 490100732}
@@ -30931,7 +30928,7 @@ GameObject:
   - component: {fileID: 1921456365}
   - component: {fileID: 1921456366}
   - component: {fileID: 1921456367}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Ghosts_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
