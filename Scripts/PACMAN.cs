@@ -5,6 +5,7 @@ public class PACMAN : MonoBehaviour {
     public float speed = 2f;
 
     private Transform Target;
+    private SpriteRenderer sprite;
     private Rigidbody2D rb;
     private NavMeshAgent agent;
 
@@ -25,6 +26,7 @@ public class PACMAN : MonoBehaviour {
         agent.speed = speed;
 
         rb = GetComponent<Rigidbody2D>();
+        sprite = GetComponent<SpriteRenderer>();
     }
 
     private void Update() {
@@ -66,8 +68,8 @@ public class PACMAN : MonoBehaviour {
             Target = ResponPoint;
             agent.SetDestination(ResponPoint.position);
 
-            if (Vector3.Distance(transform.position, ResponPoint.position) < .05f) {
-                Invoke("SetIsResponingf", .1f);
+            if (Vector2.Distance(transform.position, ResponPoint.position) < .05f) {
+                Invoke("SetIsResponingf", .2f);
             }
         }
     }
@@ -86,6 +88,8 @@ public class PACMAN : MonoBehaviour {
     }
     void SetIsResponingf() {
         isResponing = false;
+
+        sprite.color = new Color (255, 239, 85);
     }
 
     public Vector2 GetTarget() {
@@ -103,7 +107,7 @@ public class PACMAN : MonoBehaviour {
                 isResponing = true;
                 agent.speed = speed;
 
-
+                sprite.color = new Color (0, 0, 0);
                 return;
             }
 
