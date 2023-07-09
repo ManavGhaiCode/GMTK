@@ -9,7 +9,7 @@ public class StartSwitcher : MonoBehaviour {
     }
 
     IEnumerator SwithScene() {
-        yield return new WaitForSeconds (5f);
+        yield return new WaitForSeconds (3.2f);
         SceneManager.LoadScene("Game");
     }
 }
