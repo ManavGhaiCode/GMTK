@@ -24,7 +24,7 @@ public class GhostBlue : MonoBehaviour {
     }
 
     private void FixedUpdate() {
-        if (Time.time > TimeToStart) {
+        if (Time.time > TimeToStart && pacman != null) {
             agent.SetDestination(new Vector2 (pacman.position.x + Random.Range(-2, 2), pacman.position.y + Random.Range(-2, 2)));
         }
     }
