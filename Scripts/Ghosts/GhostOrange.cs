@@ -28,4 +28,13 @@ public class GhostOrange : MonoBehaviour {
             agent.SetDestination(pacman.position);
         }
     }
+
+
+    private void OnTriggerEnter2D(Collider2D hitInfo) {
+        PACMAN _pacman = hitInfo.GetComponent<PACMAN>();
+
+        if (_pacman != null) {
+            _pacman.kill();
+        }
+    }
 }

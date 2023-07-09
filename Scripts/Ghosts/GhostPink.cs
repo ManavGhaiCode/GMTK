@@ -28,4 +28,13 @@ public class GhostPink : MonoBehaviour {
             agent.SetDestination(pacmanAI.GetTarget());
         }
     }
+
+
+    private void OnTriggerEnter2D(Collider2D hitInfo) {
+        PACMAN _pacman = hitInfo.GetComponent<PACMAN>();
+
+        if (_pacman != null) {
+            _pacman.kill();
+        }
+    }
 }

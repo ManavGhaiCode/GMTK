@@ -28,4 +28,12 @@ public class GhostBlue : MonoBehaviour {
             agent.SetDestination(new Vector2 (pacman.position.x + Random.Range(-2, 2), pacman.position.y + Random.Range(-2, 2)));
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D hitInfo) {
+        PACMAN _pacman = hitInfo.GetComponent<PACMAN>();
+
+        if (_pacman != null) {
+            _pacman.kill();
+        }
+    }
 }

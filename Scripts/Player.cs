@@ -19,4 +19,13 @@ public class Player : MonoBehaviour {
         Vector2 Force = moveDir.normalized * speed * Time.fixedDeltaTime;
         rb.MovePosition(rb.position + Force);
     }
+
+
+    private void OnTriggerEnter2D(Collider2D hitInfo) {
+        PACMAN _pacman = hitInfo.GetComponent<PACMAN>();
+
+        if (_pacman != null) {
+            _pacman.kill();
+        }
+    }
 }

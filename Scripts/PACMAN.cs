@@ -73,4 +73,8 @@ public class PACMAN : MonoBehaviour {
     public Vector2 GetTarget() {
         return Target.position;
     }
+
+    public void kill() {
+        Destroy(gameObject);
+    }
 };
