@@ -106,7 +106,7 @@ public class PACMAN : MonoBehaviour {
             if (lifes > 0) {
                 agent.SetDestination(new Vector2 (0, 3.75f));
 
-                speed += .5f;
+                speed += .25f;
                 isResponing = true;
                 agent.speed = speed;
 
