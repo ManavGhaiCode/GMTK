@@ -24,7 +24,7 @@ public class GhostOrange : MonoBehaviour {
     }
 
     private void FixedUpdate() {
-        if (Time.time > TimeToStart) {
+        if (Time.time > TimeToStart && pacman != null) {
             agent.SetDestination(pacman.position);
         }
     }
