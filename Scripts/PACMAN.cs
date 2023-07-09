@@ -8,10 +8,13 @@ public class PACMAN : MonoBehaviour {
     private Rigidbody2D rb;
     private NavMeshAgent agent;
 
+    private bool isResponing = false;
     private float GhostDist = 0f;
     private Vector2 avgGhostPos;
 
+
     [SerializeField] private Transform[] Ghosts;
+    [SerializeField] private Transform ResponPoint;
     [SerializeField] private int lifes = 4;
 
     private void Start() {
@@ -25,38 +28,43 @@ public class PACMAN : MonoBehaviour {
     }
 
     private void Update() {
-        avgGhostPos = (Ghosts[0].position + Ghosts[1].position + Ghosts[2].position + Ghosts[3].position) / new Vector2 (4, 4);
-        GhostDist = Vector2.Distance(transform.position, avgGhostPos);
+        if (!isResponing) {
+            avgGhostPos = (Ghosts[0].position + Ghosts[1].position + Ghosts[2].position + Ghosts[3].position) / new Vector2 (4, 4);
+            GhostDist = Vector2.Distance(transform.position, avgGhostPos);
 
-        Pellet[] pa = GameObject.FindObjectsOfType<Pellet>();
-        GameObject[] pellets = new GameObject[pa.Length];
+            Pellet[] pa = GameObject.FindObjectsOfType<Pellet>();
+            GameObject[] pellets = new GameObject[pa.Length];
 
-        int i = 0;
+            int i = 0;
 
-        foreach (Pellet pellet in pa) {
-            pellets.SetValue(pellet.gameObject, i);
-            i++;
-        }
+            foreach (Pellet pellet in pa) {
+                pellets.SetValue(pellet.gameObject, i);
+                i++;
+            }
 
-        float lowestDist = Mathf.Infinity;
-        GameObject LocalTarget = null;
+            float lowestDist = Mathf.Infinity;
+            GameObject LocalTarget = null;
 
-        foreach (GameObject pellet in pellets) {
-            float dist = Vector2.Distance(transform.position, pellet.transform.position);
-            float ghostDist = Vector2.Distance(Ghosts[0].position, pellet.transform.position);
+            foreach (GameObject pellet in pellets) {
+                float dist = Vector2.Distance(transform.position, pellet.transform.position);
+                float ghostDist = Vector2.Distance(Ghosts[0].position, pellet.transform.position);
 
-            if (dist < lowestDist) {
-                if (!(dist < .18f)) {
-                    if (ghostDist >= GhostDist - .2f) {
-                        lowestDist = dist;
-                        LocalTarget = pellet;
+                if (dist < lowestDist) {
+                    if (!(dist < .18f)) {
+                        if (ghostDist >= GhostDist - .2f) {
+                            lowestDist = dist;
+                            LocalTarget = pellet;
+                        }
                     }
                 }
             }
-        }
 
-        if (LocalTarget != Target) {
-            Target = LocalTarget.transform;
+            if (LocalTarget != Target) {
+                Target = LocalTarget.transform;
+            }
+        } else {
+            Target = ResponPoint;
+            agent.SetDestination(ResponPoint.position);
         }
     }
 
@@ -72,22 +80,32 @@ public class PACMAN : MonoBehaviour {
             agent.SetDestination(Target.position);
         }
     }
+    void SetIsResponingf() {
+        isResponing = false;
+    }
 
     public Vector2 GetTarget() {
         return Target.position;
     }
 
+
     public void kill() {
-        if (lifes > 0) {
-            transform.position = new Vector2 (0, 3.75f);
+        if (!isResponing) {
+            if (lifes > 0) {
+                lifes -= 1;
+                agent.SetDestination(new Vector2 (0, 3.75f));
 
-            lifes -= 1;
+                speed += .1f;
+                isResponing = true;
+                agent.speed = speed;
 
-            agent.SetDestination(new Vector2 (0, 3.75f));
 
-            return;
+                Invoke("SetIsResponingf", 5f);
+
+                return;
+            }
+
+            Destroy(gameObject);
         }
-
-        Destroy(gameObject);
     }
 };
