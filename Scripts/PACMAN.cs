@@ -3,7 +3,6 @@ using UnityEngine.AI;
 
 public class PACMAN : MonoBehaviour {
     public float speed = 2f;
-    public Vector2 OriginalPos;
 
     private Transform Target;
     private Rigidbody2D rb;
@@ -80,11 +79,11 @@ public class PACMAN : MonoBehaviour {
 
     public void kill() {
         if (lifes > 0) {
-            transform.position = OriginalPos;
+            transform.position = new Vector2 (0, 3.75f);
 
             lifes -= 1;
 
-            agent.SetDestination(OriginalPos);
+            agent.SetDestination(new Vector2 (0, 3.75f));
 
             return;
         }
